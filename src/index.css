@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+  /* Most frequently used colors, saved as variables for consistency. */
+:root {
+    --dark-green: #112e13;
+    --olive-green: darkolivegreen;
+    --light-green: #e6f3e0;
+    --text-color: #ffffff;
+}
+
+/* Body background color */
+body {
+    background-color: var(--olive-green);
+}
+
+/* Header styling. */
+.header {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--olive-green);
+    color: var(--light-green);;
+}
+
+/* Business name in header. */
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+}
+
+/* The next three Div styles apply to the navigation menu, top right in the header. */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    text-decoration: underline;
+}
+
+/* Navigation anchors in header */
+a {
+    color: var(--light-green);
+    text-decoration: none;
+ }
+
+/* This is the banner. */
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-image: none;
+    background-size: cover;
+    background-position: center;
+}
+
+/* All page headings. */
+h2 {
+    text-align: left;
+    background-color: var(--dark-green);
+    color: var(--text-color);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    height: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+/* Container for the About Me section. */
+.about-me-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    padding: 40px;
+    height: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--dark-green);
+    color: var(--text-color);
+}
+
+/* Circular profile picture. */
+.about-me-container img {
+    border-radius: 3px;
+    display: inline;
+    height: 260px;
+    float: left;
+}
+
+/* My bio. */
+p {
+    font-size: 18px;
+    display: inline;
+    padding-inline-start: 10px;
+    flex: 0 0 70%;
+}
+
+/* Container for images and links to the work samples. */
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    background-color: var(--dark-green);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+    /* flex-basis: 80%; */
+  }
+  
+  .work-container li {
+    flex-basis: 350px; width: 350px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .work-container li img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+  }
+  
+  /* Code for the overlay that appears when you hover over a work sample pic. */
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 14, 2, 0.63);
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 0.2s 0.1s ease-in-out;
+    color: var(--text-color);
+    border-radius: 8px;
+    border-style: double;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    /* Centering overlay text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Hover feature.*/
+  .work-container li:hover .overlay {
+    transform: scale(1);
+  }
+
+  /* Next three: bottom container for contact icons. */
+.contact-me-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    min-height: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--dark-green);
+    color: var(--text-color);
+ }
+
+.contact-me-container ul li {
+    display:inline;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    list-style-type: none;
+}
+
+/* Height of the link icons. */
+.contact-me-container li img {
+    height: 100px;
+}
+
+/* Formatting for footer section. */
+footer {
+    padding: 1px;
+    display: inline;
+}
+
+footer h3 {
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: var(--olive-green);
+}

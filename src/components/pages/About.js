@@ -1,17 +1,26 @@
 import React from 'react';
+import profilePic from '../../assets/Profile-Pic.jpg';
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+    <section id="about-me">
+                <h2>About Me</h2>
+
+                <div class="about-me-container">
+
+                    <img src={ profilePic } alt="Jennifer Alexander-Hill, an older woman with brown hair and blue eyes."/>
+
+                    <p>
+                        Study. Simplify. Solve.
+                       
+                        Jennifer Alexander-Hill is a problem-solver. Whether its managing the three-ring circus of a theatrical production, developing fundraising CRMs for nonprofit organizations, or – as she finds herself these days – buried deep in a code refactoring, Jennifer excels in exploring the big picture and then diving deep into the details to help you reach your goals. 
+                        
+                        Jennifer is currently enrolled in the full stack web development bootcamp at the University of Washington. She also volunteers for Seattle Public Schools as a web editor. 
+                        
+                        Originally from the east coast, Jennifer loves Seattle weather, web development, musical theatre, her ukuleles, and hemp lattes. Learn more about her work below and then reach out for a chat. 
+                    </p>
+                </div>
+
+            </section>
   );
 }
