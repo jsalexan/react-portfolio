@@ -8,11 +8,11 @@ export default function Portfolio() {
     <section id="portfolio">
                 <h2>Work</h2>
 
-                <ul class="work-container">
+                <ul className="work-container">
                
                     <li>
                         <a href="https://jsalexan.github.io/Seattle-Platypus-Rescue/"><img src= { spr } alt="Hands holding two baby platypuses."/>
-                            <div class="overlay">
+                            <div className="overlay">
                                 <span>Seattle Platypus Rescue</span>
                             </div>
                         </a>
@@ -20,7 +20,7 @@ export default function Portfolio() {
 
                     <li>
                         <a href="https://min-andrew.github.io/Dog-park-finder/"><img src={ dogtown } alt="Small dogs in front of dog house."/>
-                            <div class="overlay">
+                            <div className="overlay">
                                 <span>Dog Town</span>
                             </div>
                         </a>
@@ -29,7 +29,7 @@ export default function Portfolio() {
                     <li>
                         <a href="https://fast-atoll-54795.herokuapp.com/">
                         <img src={ furever } alt="A little beige dog drawing"/>
-                            <div class="overlay">
+                            <div className="overlay">
                                 <span>Furever Friends</span>
                             </div>
                         </a>
