@@ -1,6 +1,6 @@
 
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     padding: 0;
     margin: 0;
 }
@@ -222,5 +222,30 @@ footer h3 {
     font-size: 14px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    background-color: var(--olive-green);
+    background-color: var(--dark-green);
+    color: --olive-green;
 }
+
+.form {
+    margin: 20px;
+
+  }
+  
+  .form input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+  }
+
+ .contact-page-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+ }
+
+ .contact-form-container {
+    width: 100%
+ }

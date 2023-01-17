@@ -7,31 +7,35 @@ import twitter from "../assets/Twitter logo green (1).png"
 function Footer() {
   return (
     <footer className="footer">
-    <section>
-    <nav class="contact-me-container" id="contact-me">
-        <ul>
-            <li>
-                <a href="tel:1-609-240-3935">
-                    <img src={ phone } alt="My phone number is 609-240-3935"/></a>
-            </li>
-            <li>
-                <a href="mailto:jsa.wa.us@gmail.com">
-                    <img src={ email } alt="My email is jsa.wa.us@gmail.com"/></a>
-            </li>
-            <li>
-                <a href="https://github.com/jsalexan">
-                    <img src={ github } alt="My GitHub page"/></a>
-            </li>
-            <li>
-                <a href="https://twitter.com/JSAH2000">
-                    <img src={ twitter } alt="My Twitter profile."/></a>
-            </li>
-            
-        </ul>
-    </nav>
-</section>
+    
+        <nav className="contact-me-container" id="contact-me">
+            <ul>
+                <li>
+                    <a href="tel:1-609-240-3935">
+                    <i class="fa-solid fa-phone fa-2xl"></i></a>
+                </li>
+                <li>
+                    <a href="mailto:jsa.wa.us@gmail.com">
+                    <i class="fa-solid fa-envelope fa-2xl"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/jsalexan">
+                    <i class="fa-brands fa-github fa-2xl"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/jennifer-alexander-hill/">
+                    <i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/JSAH2000">
+                    <i class="fa-brands fa-twitter fa-2xl"></i></a>
+                </li>
+                
+            </ul>
+        </nav>
 
-<h3>JAH Designs<br />2023</h3>
+
+    <h3>JAH Designs<br />2023</h3>
 
 </footer>
 )

@@ -1,22 +1,98 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-export default function Contact() {
+import { validateEmail } from '../../utils/helpers';
+
+function Form() {
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleInputChange = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    if ( inputType === 'firstName') {
+      setFirstName(inputValue);
+    } else if (inputType === 'lastName') {
+      setLastName(inputValue);
+    } else if (inputType === 'email'){
+      setEmail (inputValue)
+    } else {
+      setMessage(inputValue);
+    }
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    if (!validateEmail(email)) {
+      setErrorMessage('Email is invalid');
+      // We want to exit out of this code block if something is wrong so that the user can correct it
+      return;
+    }
+
+    // Clear the inputs
+  
+    setFirstName('');
+    setLastName('');
+    setEmail('');
+    setMessage('');
+
+  };
+
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
+    <section className='contact-page-container'>
+      <div className='contact-form-container'>
+      <h2>
+        Contact Me
+      </h2>
+      <form className="form">
+        <input
+          value={firstName}
+          name="firstName"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="First Name"
+        />
+        <input
+          value={lastName}
+          name="lastName"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="Last Name"
+        />
+         <input
+          value={email}
+          name="email"
+          onChange={handleInputChange}
+          type="email"
+          placeholder="Email"
+        />
+         <input
+          value={message}
+          name="message"
+          onChange={handleInputChange}
+          type="message"
+          placeholder="Your message"
+        />
+
+        <button type="button" onClick={handleFormSubmit}>
+          Submit
+        </button>
+      </form>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
+      </div>
+      </section>
   );
 }
+
+export default Form;
+
+
