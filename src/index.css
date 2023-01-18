@@ -1,8 +1,8 @@
 
 * {
-    /* box-sizing: border-box; */
     padding: 0;
     margin: 0;
+    background-color: #112e13;
 }
 
   /* Most frequently used colors, saved as variables for consistency. */
@@ -11,14 +11,6 @@
     --olive-green: darkolivegreen;
     --light-green: #e6f3e0;
     --text-color: #ffffff;
-}
-
-/* Body background color */
-body {
-    background-color: var(--olive-green);
-}
-html {
-    background-color: #112e13;
 }
 
 /* Header styling. */
@@ -83,6 +75,10 @@ a.nav-link-active {
     color: #112e13;
 }
 
+a.nav-link:hover {
+    color: olivedrab;
+}
+
 /* All page headings. */
 h2 {
     text-align: left;
@@ -120,6 +116,7 @@ ol, ul {
     display: inline;
     height: 260px;
     float: left;
+    margin-top: 35px;
 }
 
 /* My bio. */
@@ -128,6 +125,7 @@ p {
     display: inline;
     padding-inline-start: 10px;
     flex: 0 0 70%;
+    color: var(--text-color);
 }
 
 /* Container for images and links to the work samples. */
@@ -179,7 +177,9 @@ p {
     justify-content: center;
     text-align: center;
   }
-  
+  .overlay span {
+    background-color: transparent;
+  }
   /* Hover feature.*/
   .work-container li:hover .overlay {
     transform: scale(1);
@@ -216,18 +216,23 @@ p {
 footer {
     padding: 1px;
     display: inline;
+    position: sticky;
+    margin-bottom: 0;
 }
 
 footer h3 {
     font-size: 14px;
+    font-style: italic;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     background-color: var(--dark-green);
-    color: --olive-green;
+    color: olivedrab;
+    margin-top: 20px;
 }
 
 .form {
     margin: 20px;
+    margin-bottom: 32px;
 
   }
   
@@ -235,17 +240,70 @@ footer h3 {
     display: block;
     margin-top: 5px;
     margin-bottom: 5px;
-    width: 80%;
+    width: 100%;
   }
-
- .contact-page-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-
- }
-
+#text-input{
+  height: 80px
+}
  .contact-form-container {
-    width: 100%
+    position: relative;
+    margin: auto;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--dark-green);
  }
+
+.submit-button {
+    width: 100px;
+    position: absolute;
+    border-radius: 4px;
+    background-color: var(--olive-green);
+    left: 40%;
+    margin-top: 5px;
+}
+
+.submit-button:hover {
+    background-color: olivedrab;
+}
+
+.submit-button:active {
+  
+  background-color: rgb(85, 113, 30);
+  box-shadow: 0 5px black;
+  transform: translateY(4px);
+}
+
+
+.error-text{
+    position: relative;
+    margin: auto;
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--dark-green);
+    color: whitesmoke;
+
+}
+
+.error-message {
+        font-size: 12px;
+}
+
+.fa-brands, .fa-solid   {
+    color: var(--light-green);
+}
+
+.fa-brands:hover, .fa-solid:hover {
+    color: olivedrab;
+}
+
+.resume {
+    text-align: center;
+}
+
+.resume-link{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+

@@ -1,8 +1,4 @@
 import React from "react";
-import phone from "../assets/Phone logo green (1).png"
-import email from "../assets/Email logo green (1).png"
-import github from "../assets/GitHub logo green (1).png"
-import twitter from "../assets/Twitter logo green (1).png"
 
 function Footer() {
   return (
@@ -35,7 +31,7 @@ function Footer() {
         </nav>
 
 
-    <h3>JAH Designs<br />2023</h3>
+    <h3>JAH Designs 2023</h3>
 
 </footer>
 )

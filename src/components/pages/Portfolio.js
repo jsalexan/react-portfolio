@@ -2,6 +2,7 @@ import React from 'react';
 import dogtown from '../../assets/dogtown.png'
 import spr from '../../assets/spr.png'
 import furever from '../../assets/furever-friends.png'
+import theatre from '../../assets/musical-theatre.jpeg'
 
 export default function Portfolio() {
   return (
@@ -31,6 +32,15 @@ export default function Portfolio() {
                         <img src={ furever } alt="A little beige dog drawing"/>
                             <div className="overlay">
                                 <span>Furever Friends</span>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://jsalexan.github.io/theatre-quiz/">
+                        <img src={ theatre } alt="Moulin Rouge production"/>
+                            <div className="overlay">
+                                <span>Musical Theatre Quiz</span>
                             </div>
                         </a>
                     </li>

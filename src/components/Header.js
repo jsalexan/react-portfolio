@@ -29,14 +29,14 @@ export default function Header() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
-      {/* We are passing the currentPage from state and the function to update it */}
+
+     <header>
      
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       <img className="hero" src={ hero } alt="Moss and stuff." />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
-    </div>
+      </header>
   );
 
   };

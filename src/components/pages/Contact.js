@@ -45,10 +45,11 @@ function Form() {
 
   return (
     <section className='contact-page-container'>
-      <div className='contact-form-container'>
-      <h2>
+            <h2>
         Contact Me
       </h2>
+      <div className='contact-form-container'>
+
       <form className="form">
         <input
           value={firstName}
@@ -76,18 +77,21 @@ function Form() {
           name="message"
           onChange={handleInputChange}
           type="message"
+          id='text-input'
           placeholder="Your message"
         />
+        <div className="error-text">
+          {errorMessage && (
+          <p className='error-message'>{errorMessage}</p>
+          )}
+        </div>
 
-        <button type="button" onClick={handleFormSubmit}>
+        <button type="button" className="submit-button" onClick={handleFormSubmit}>
           Submit
         </button>
+      
       </form>
-      {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
+     
       </div>
       </section>
   );
