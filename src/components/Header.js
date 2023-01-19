@@ -4,7 +4,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
-import hero from '../assets/hero.jpg';
+import hero from '../assets/Resume banner.png';
 
 
 
@@ -33,7 +33,7 @@ export default function Header() {
      <header>
      
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      <img className="hero" src={ hero } alt="Moss and stuff." />
+      <img className="hero img-responsive" src={ hero } alt="Moss and stuff." />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
       </header>
