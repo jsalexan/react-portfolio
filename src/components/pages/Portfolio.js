@@ -1,24 +1,18 @@
 import React from 'react';
-import dogtown from '../../assets/dogtown.png'
-import spr from '../../assets/spr.png'
-import furever from '../../assets/furever-friends.png'
-import theatre from '../../assets/musical-theatre.jpeg'
+import dogtown from '../../assets/dogtown.png';
+import spr from '../../assets/spr.png';
+import furever from '../../assets/furever-friends.png';
+import theatre from '../../assets/musical-theatre.jpeg';
+import tech from '../../assets/Blog square.png';
+import memory from '../../assets/Notetaker.png';
 
 export default function Portfolio() {
   return (
     <section id="portfolio">
-                <h2>Work</h2>
+                <h2>Portfolio</h2>
 
                 <ul className="work-container">
                
-                    <li>
-                        <a href="https://jsalexan.github.io/Seattle-Platypus-Rescue/"><img src= { spr } alt="Hands holding two baby platypuses."/>
-                            <div className="overlay">
-                                <span>Seattle Platypus Rescue</span>
-                            </div>
-                        </a>
-                    </li>
-
                     <li>
                         <a href="https://min-andrew.github.io/Dog-park-finder/"><img src={ dogtown } alt="Small dogs in front of dog house."/>
                             <div className="overlay">
@@ -44,7 +38,27 @@ export default function Portfolio() {
                             </div>
                         </a>
                     </li>
-
+                    <li>
+                        <a href="https://jsalexan.github.io/Seattle-Platypus-Rescue/"><img src= { spr } alt="Hands holding two baby platypuses."/>
+                            <div className="overlay">
+                                <span>Seattle Platypus Rescue</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://hash-tech.herokuapp.com/"><img src= { tech } alt="Woman on her lap top with a hash symbol on the cover"/>
+                            <div className="overlay">
+                                <span>Hash Tech</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://memory-friend.herokuapp.com/"><img src= { memory } alt="Woman on her lap top with a hash symbol on the cover"/>
+                            <div className="overlay">
+                                <span>Memory Friend</span>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </section>
   )

@@ -4,7 +4,7 @@ import profilePic from '../../assets/profile in circle 3.png';
 export default function About() {
   return (
     <section id="about-me">
-        <h2>About Me</h2>
+        <h2>Jennifer Alexander-Hill</h2>
             <div className="about-me-container">
                 <img src={ profilePic } alt="Jennifer Alexander-Hill, a woman with brown hair and blue eyes."/>
                     <p>

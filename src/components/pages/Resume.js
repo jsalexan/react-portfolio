@@ -6,8 +6,8 @@ export default function Resume() {
     <section className='resume-container'>
       <h2>Resume</h2>
         <div className='resume-link'>
-          <a className='resume' href = { resume } target = "_blank" rel="noreferrer" ><i class="fa-solid fa-file fa-2xl"></i></a>
-          <p>Resume</p>
+          <a className='resume' href = { resume } target = "_blank" rel="noreferrer" ><i className="fa-solid fa-file fa-2xl"></i></a>
+          <p className='subtitle'>Jennifer's Resume</p>
         </div>
     </section>
   );

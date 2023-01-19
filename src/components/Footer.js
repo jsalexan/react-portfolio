@@ -8,23 +8,23 @@ function Footer() {
             <ul>
                 <li>
                     <a href="tel:1-609-240-3935">
-                    <i class="fa-solid fa-phone fa-2xl"></i></a>
+                    <i className="fa-solid fa-phone fa-2xl"></i></a>
                 </li>
                 <li>
                     <a href="mailto:jsa.wa.us@gmail.com">
-                    <i class="fa-solid fa-envelope fa-2xl"></i></a>
+                    <i className="fa-solid fa-envelope fa-2xl"></i></a>
                 </li>
                 <li>
                     <a href="https://github.com/jsalexan">
-                    <i class="fa-brands fa-github fa-2xl"></i></a>
+                    <i className="fa-brands fa-github fa-2xl"></i></a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/jennifer-alexander-hill/">
-                    <i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                    <i className="fa-brands fa-linkedin fa-2xl"></i></a>
                 </li>
                 <li>
                     <a href="https://twitter.com/JSAH2000">
-                    <i class="fa-brands fa-twitter fa-2xl"></i></a>
+                    <i className="fa-brands fa-twitter fa-2xl"></i></a>
                 </li>
                 
             </ul>
