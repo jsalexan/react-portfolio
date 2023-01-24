@@ -14,50 +14,67 @@ export default function Portfolio() {
                 <ul className="work-container">
                
                     <li>
-                        <a href="https://min-andrew.github.io/Dog-park-finder/"><img src={ dogtown } alt="Small dogs in front of dog house."/>
+                        <img src={ dogtown } alt="Small dogs in front of dog house."/>
                             <div className="overlay">
                                 <span>Dog Town</span>
+                                <div className='btn-row'>
+                                    <a href="https://github.com/jsalexan/DogTown" className='portfolio-btn btn'>GitHub</a>
+                                    <a href="https://min-andrew.github.io/Dog-park-finder/" className='portfolio-btn btn'>Website</a>
+                                </div>
                             </div>
-                        </a>
+                        
                     </li>
 
                     <li>
-                        <a href="https://fast-atoll-54795.herokuapp.com/">
                         <img src={ furever } alt="A little beige dog drawing"/>
                             <div className="overlay">
                                 <span>Furever Friends</span>
+                               <div className='btn-row'>
+                                    <a href="https://github.com/jsalexan/Furever-Friends" className='portfolio-btn btn'>GitHub</a>
+                                    <a href="https://fast-atoll-54795.herokuapp.com/" className='portfolio-btn btn'>Website</a>
+                                </div>
                             </div>
-                        </a>
                     </li>
 
                     <li>
-                        <a href="https://jsalexan.github.io/theatre-quiz/">
                         <img src={ theatre } alt="Moulin Rouge production"/>
                             <div className="overlay">
-                                <span>Musical Theatre Quiz</span>
+                                <span>Broadway Quiz</span>
+                                <div className='btn-row'>
+                                    <a href="https://github.com/jsalexan/theatre-quiz" className='portfolio-btn btn'>GitHub</a>
+                                    <a href="https://jsalexan.github.io/theatre-quiz/" className='portfolio-btn btn'>Website</a>
+                                </div>
                             </div>
-                        </a>
                     </li>
                     <li>
-                        <a href="https://jsalexan.github.io/Seattle-Platypus-Rescue/"><img src= { spr } alt="Hands holding two baby platypuses."/>
+                        <img src= { spr } alt="Hands holding two baby platypuses."/>
                             <div className="overlay">
                                 <span>Seattle Platypus Rescue</span>
+                                <div className='btn-row'>
+                                    <a href="https://github.com/jsalexan/Seattle-Platypus-Rescue" className='portfolio-btn btn'>GitHub</a>
+                                    <a href="https://jsalexan.github.io/Seattle-Platypus-Rescue/" className='portfolio-btn btn'>Website</a>
+                                </div>
                             </div>
-                        </a>
                     </li>
                     <li>
-                        <a href="https://hash-tech.herokuapp.com/"><img src= { tech } alt="Woman on her lap top with a hash symbol on the cover"/>
+                        <img src= { tech } alt="Woman on her lap top with a hash symbol on the cover"/>
                             <div className="overlay">
                                 <span>Hash Tech</span>
+                                <div className='btn-row'>
+                                    <a href="https://github.com/jsalexan/tech-blog" className='portfolio-btn btn'>GitHub</a>
+                                    <a href="https://hash-tech.herokuapp.com/" className='portfolio-btn btn'>Website</a>
+                                </div>
                             </div>
-                        </a>
                     </li>
                     <li>
-                        <a href="https://memory-friend.herokuapp.com/"><img src= { memory } alt="Woman on her lap top with a hash symbol on the cover"/>
+                        <img src= { memory } alt="Woman on her lap top with a hash symbol on the cover"/>
                             <div className="overlay">
                                 <span>Memory Friend</span>
+                                <div className='btn-row'>
+                                    <a href="https://github.com/jsalexan/note-taker" className='portfolio-btn btn'>GitHub</a>
+                                    <a href="https://memory-friend.herokuapp.com/" className='portfolio-btn btn'>Website</a>
+                                </div>
                             </div>
-                        </a>
                     </li>
                 </ul>
             </section>

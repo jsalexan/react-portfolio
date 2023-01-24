@@ -90,7 +90,7 @@ h2 {
     padding-left: 10px;
     padding-bottom: 10px;
     height: auto;
-    font-family:Lobster, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     /* text-decoration: underline; */
 }
@@ -174,11 +174,14 @@ p {
     border-style: double;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
+    font-weight: bold;
     /* Centering overlay text */
-    display: flex;
+    display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     text-align: center;
+    flex-direction: column;
+    cursor:auto;
   }
   .overlay span {
     background-color: transparent;
@@ -188,6 +191,21 @@ p {
     transform: scale(1);
   }
 
+.portfolio-btn {
+    display: inline;
+    font-size: 20px;
+    color: var(--dark-green);
+    background-color: var(--text-color);
+    padding: 6px;
+    border-radius: 3px;
+    margin: 8px;
+    width: 40px;
+   
+  }
+
+  #portfolio-btn:hover {
+    background-color:blanchedalmond;
+  }
   /* Next three: bottom container for contact icons. */
 .contact-me-container {
     display: flex;
@@ -314,3 +332,23 @@ p {
 .subtitle {
     text-align: center;
 }
+
+li {
+    color: white;
+    list-style: none;
+}
+ .skills {   
+   
+ }
+
+ .skills-h3 {
+    color: white;
+    text-align: center; 
+ }
+
+ .skill-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
