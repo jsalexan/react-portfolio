@@ -36,11 +36,16 @@
     background-color: #112e13;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
 }
 
 a.nav-link {
     color: var(--light-green);
 }
+
+a.nav-link:visited {
+    color: var(--light-green)
+  }
 
 a.nav-link-active {
     color: #112e13;
@@ -48,6 +53,11 @@ a.nav-link-active {
 
 a.nav-link:hover {
     color: olivedrab;
+}
+
+.navbar-light .navbar-brand {
+    color: var(--light-green);
+
 }
 
 /* All page headings. */
@@ -67,11 +77,16 @@ ol, ul {
     padding-left: 0rem;
 }
 
+.bordertop {
+    width: 100%;
+}
 /* Container for the About Me section. */
 .about-me-container {
     display: flex;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 30px;
     margin-bottom: 5px;
     padding: 40px;
     height: auto;
@@ -85,14 +100,14 @@ ol, ul {
     border-radius: 3px;
     display: inline-block;
     height: 260px;
-    margin-top: 35px;
+
 }
 
 /* My bio. */
 p {
     font-size: 18px;
     display: inline;
-    padding-inline-start: 10px;
+    padding-inline-start: 15px;
     flex: 0 0 70%;
     width: 150vmin;
     color: var(--text-color);
@@ -177,20 +192,24 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
+    margin-bottom: 0;
     min-height: 100%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--dark-green);
     color: var(--text-color);
+    margin-top: 10px;
  }
 
 .contact-me-container ul li {
     display:inline;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    /* padding-left: 30px; */
-    padding-right: 30px;
+    flex-direction: row;
+    padding-left: 15px;
+    padding-right: 15px;
     list-style-type: none;
+ 
 }
 
 /* Height of the link icons. */
@@ -209,9 +228,15 @@ p {
 
 /* Formatting for footer section. */
 footer {
+
     padding: 1px;
     display: inline;
     margin-bottom: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 footer h3 {
@@ -221,7 +246,6 @@ footer h3 {
     text-align: center;
     background-color: var(--dark-green);
     color: olivedrab;
-    margin-top: 20px;
 }
 
 /* Contact page form button */
@@ -286,24 +310,26 @@ footer h3 {
 }
 
 /* List of relevant skills on Resume page */
-li {
-    color: white;
-    list-style: none;
-}
 
+/* Titles for skills categories */
  .skills-h3 {
     color: white;
     text-align: center; 
  }
 
- .skill-group {
+ /* container for skill icons */
+#front-end {
     display: flex;
     justify-content: center;
     align-items: center;
- }
+    flex-direction: row;
+}
 
-
-
+.skill-icon {
+    background-color: red;
+    width: 60px;
+    height: 50px;
+}
 
 
 
@@ -315,7 +341,29 @@ li {
  @media only screen and (max-width: 600px) {
     p {
         flex: 0 0 100%;
-        margin-top: 10px;
+        margin-top: 20px;
+        text-align: center;
     }
     
+    .about-me-container {
+        justify-content: center;
+    }
+
+    .nav {
+        font-size: 18px;
+    }
+
+    .contact-form {
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .form-control {
+        width:96%;
+    }
+
+    .submit-button {
+        width: 96%;
+    }
     }

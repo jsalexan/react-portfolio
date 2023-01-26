@@ -4,7 +4,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
-import hero from '../assets/Resume banner.png';
+import banner from '../assets/Bordertop.png';
 
 
 
@@ -33,7 +33,7 @@ export default function Header() {
      <header>
      
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      <img className="hero img-responsive" src={ hero } alt="Moss and stuff." />
+      {/* <img className="bordertop img-responsive" src={ banner } alt="celtic pattern" /> */}
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
       </header>

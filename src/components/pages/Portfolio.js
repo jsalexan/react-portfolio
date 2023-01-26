@@ -9,7 +9,7 @@ import memory from '../../assets/Notetaker.png';
 export default function Portfolio() {
   return (
     <section id="portfolio">
-                <h2>Portfolio</h2>
+                {/* <h2>Portfolio</h2> */}
 
                 <ul className="work-container">
                

@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav">
 
       <li className="nav-item">
         <a
@@ -13,6 +13,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
+
       <li className="nav-item">
         <a
           href="#Portfolio"
@@ -22,6 +23,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
+
       <li className="nav-item">
         <a
           href="#Resume"
@@ -31,6 +33,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Resume
         </a>
       </li>
+      
       <li className="nav-item">
         <a
           href="#contact"
@@ -40,10 +43,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-
     </ul>
-
-
   );
 }
 

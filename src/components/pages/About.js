@@ -4,7 +4,9 @@ import profilePic from '../../assets/picture logo (1).png';
 export default function About() {
   return (
     <section id="about-me">
-        <h2>Jennifer Alexander-Hill</h2>
+        <header className='top-bar'>
+
+        </header>
             <div className="about-me-container">
                 <img src={ profilePic } alt="Jennifer Alexander-Hill, a woman with brown hair and blue eyes."/>
                     <p>
@@ -14,7 +16,9 @@ export default function About() {
                         <br /><br />
                         Jennifer is currently enrolled in the full stack web development bootcamp at the University of Washington. She also volunteers for Seattle Public Schools as a web editor. 
                         <br /><br />
-                        Originally from the east coast, Jennifer loves Seattle weather, experimenting with CSS, musical theatre, her ukuleles, and hemp milk lattes. Learn more about her work below and then reach out for a chat. 
+                        Originally from the east coast, Jennifer loves Seattle weather, experimenting with CSS, musical theatre, her ukuleles, and hemp milk lattes. 
+                        <br /><br />
+                        Learn more about her work and then reach out for a chat. 
                     </p>
               </div>
     </section>
