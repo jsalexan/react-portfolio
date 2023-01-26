@@ -75,6 +75,9 @@ h2 {
     font-size: 25px;
 }
 
+h3{
+    color: var(--text-color);
+}
 ol, ul {
     padding-left: 0rem;
 }
@@ -170,6 +173,7 @@ p {
 
   .overlay span {
     background-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   /* Hover feature.*/
@@ -181,11 +185,15 @@ p {
     display: inline;
     font-size: 20px;
     color: var(--dark-green);
-    background-color: var(--text-color);
+    background-color: var(--light-green);
     padding: 6px;
     border-radius: 3px;
     margin: 8px;
-    width: 40px;   
+ 
+  }
+
+  .btn-row {
+    margin-top: 20px;
   }
 
   /* Footer contact-me-container for contact icons. */
@@ -313,6 +321,16 @@ footer h3 {
     width: 50%;
 }
 
+#resume-pic:hover {
+    background-color: rgb(119, 43, 43);
+}
+
+#resume-pic:active {
+    border: black;
+    border-style: groove;
+    border-width: 5px;
+}
+
 /* Subtitle for resume link */
 .subtitle {
     text-align: center;
@@ -365,6 +383,7 @@ footer h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 50%;
     margin-top: 50px;
 }
@@ -416,5 +435,8 @@ footer h3 {
 
     .resume-page-container {
         flex-direction: column;
+    }
+    h2 {
+        text-align: center;
     }
 }

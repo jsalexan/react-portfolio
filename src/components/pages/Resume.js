@@ -34,8 +34,7 @@ export default function Resume() {
           ></img>
         </div>
       
-
-      <div className="skill-icons">
+        <div className="skill-icons">
         <h3 className="skills-h3">Back End</h3>
         <div id="back-end">
           <img
@@ -43,6 +42,7 @@ export default function Resume() {
             src="https://user-images.githubusercontent.com/110498167/214729772-d9feb312-54d9-457f-b5a1-4de00ed60c84.png"
             alt="mysql logo"
           ></img>
+
           <img
             className="fa-2xl skill-icon"
             src="https://user-images.githubusercontent.com/110498167/214729728-b1d877d4-32d6-44a4-bba7-21bb507aa1c0.png"
@@ -68,6 +68,7 @@ export default function Resume() {
       </div>
 
       <div className="resume-container">
+        <h3>Download Resume</h3>
         <div className="resume-link">
           <a className="resume" href={resume} target="_blank" rel="noreferrer">
             <img src='https://user-images.githubusercontent.com/110498167/214734937-d71ae0b3-f4be-4895-9a5e-c3e58c548bd5.png' alt='resume' id='resume-pic'></img>
