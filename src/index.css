@@ -37,7 +37,8 @@
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 a.nav-link {
@@ -368,9 +369,18 @@ footer h3 {
     margin-top: 50px;
 }
 
+.final-thoughts {
+    text-align: center;
+    width: 98%;
 
 
+}
 
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 
 
@@ -403,4 +413,8 @@ footer h3 {
     .submit-button {
         width: 96%;
     }
+
+    .resume-page-container {
+        flex-direction: column;
     }
+}

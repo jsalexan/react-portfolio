@@ -72,7 +72,6 @@ export default function Resume() {
           <a className="resume" href={resume} target="_blank" rel="noreferrer">
             <img src='https://user-images.githubusercontent.com/110498167/214734937-d71ae0b3-f4be-4895-9a5e-c3e58c548bd5.png' alt='resume' id='resume-pic'></img>
           </a>
-          <p className="subtitle">Jennifer's Resume</p>
         </div>
       </div>
     </section>
