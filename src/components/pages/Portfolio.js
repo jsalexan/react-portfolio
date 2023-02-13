@@ -7,25 +7,14 @@ import tech from '../../assets/Blog square.png';
 import memory from '../../assets/Notetaker.png';
 import dogtor from '../../assets/Dogtor (1).png';
 
+
 export default function Portfolio() {
   return (
     <section id="portfolio">
                 {/* <h2>Portfolio</h2> */}
 
                 <ul className="work-container">
-
-                <li>
-                        <img src={ dogtor } alt="Navy blue dog with health heart."/>
-                            <div className="overlay">
-                                <span>Dog-tor's Notes</span>
-                                <div className='btn-row'>
-                                    <a href="https://github.com/jsalexan/Dogtor-Notes" className='portfolio-btn btn'>GitHub</a>
-                                    <a href="https://whispering-plains-29779.herokuapp.com/" className='portfolio-btn btn'>Website</a>
-                                </div>
-                            </div>
-                        
-                    </li>
-
+               
                     <li>
                         <img src={ dogtown } alt="Small dogs in front of dog house."/>
                             <div className="overlay">
