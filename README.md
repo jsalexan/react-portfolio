@@ -53,6 +53,8 @@
 
   ## [Credits](#table-of-contents) 
   I am thankful for the assistance of my UW Full Stack Web Development Bootcamp instructors, teacher assistants, and fellow students.
+
+  
   <br><br>
  
   ## [License](#table-of-contents)
