@@ -6,14 +6,12 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Header({ currentPage, handlePageChange }) {
     return (
-<Navbar collapseOnSelect expand="lg"  variant="dark" sticky="top">
+<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
 <Container>
-  <Navbar.Brand href="#About" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>Jennifer Alexander-Hill</Navbar.Brand>
+  <Navbar.Brand href="#About" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About Me</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-    <Nav.Link href="#About" onClick={() => handlePageChange('About')}
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>About</Nav.Link>
       <Nav.Link href="#Portfolio" onClick={() => handlePageChange('Portfolio')}
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</Nav.Link>
       <Nav.Link href="#Resume" onClick={() => handlePageChange('Resume')}

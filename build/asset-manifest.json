@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.90931b01.css",
-    "main.js": "/react-portfolio/static/js/main.b9f1bf65.js",
-    "static/media/Alexander-Hill resume - 3-15-2017.pdf": "/react-portfolio/static/media/Alexander-Hill resume - 3-15-2017.9f741f727767eeb74137.pdf",
-    "static/media/Resume banner.png": "/react-portfolio/static/media/Resume banner.5039bf88d4643f448c5b.png",
+    "main.css": "/react-portfolio/static/css/main.9fedf685.css",
+    "main.js": "/react-portfolio/static/js/main.ae564090.js",
     "static/media/Notetaker.png": "/react-portfolio/static/media/Notetaker.c18941ab083e9247cf89.png",
     "static/media/spr.png": "/react-portfolio/static/media/spr.60beb02a199280da16c5.png",
     "static/media/Blog square.png": "/react-portfolio/static/media/Blog square.30c072dc70322932669b.png",
     "static/media/furever-friends.png": "/react-portfolio/static/media/furever-friends.5d833270041d11d3920f.png",
+    "static/media/Bordertop.png": "/react-portfolio/static/media/Bordertop.4d134da5c3cffdd57d2a.png",
     "static/media/musical-theatre.jpeg": "/react-portfolio/static/media/musical-theatre.ebefd313fdeaeb0b4b80.jpeg",
     "static/media/picture logo (1).png": "/react-portfolio/static/media/picture logo (1).319be0ee57ee6229c85b.png",
     "static/media/dogtown.png": "/react-portfolio/static/media/dogtown.8a7fa8d4903b9650d5d6.png",
+    "static/media/JAH Resume 2023.pdf": "/react-portfolio/static/media/JAH Resume 2023.e763b14bb162686a245c.pdf",
+    "static/media/Dogtor (1).png": "/react-portfolio/static/media/Dogtor (1).0f371dabb11e18b6cc2c.png",
     "index.html": "/react-portfolio/index.html",
-    "main.90931b01.css.map": "/react-portfolio/static/css/main.90931b01.css.map",
-    "main.b9f1bf65.js.map": "/react-portfolio/static/js/main.b9f1bf65.js.map"
+    "main.9fedf685.css.map": "/react-portfolio/static/css/main.9fedf685.css.map",
+    "main.ae564090.js.map": "/react-portfolio/static/js/main.ae564090.js.map"
   },
   "entrypoints": [
-    "static/css/main.90931b01.css",
-    "static/js/main.b9f1bf65.js"
+    "static/css/main.9fedf685.css",
+    "static/js/main.ae564090.js"
   ]
 }

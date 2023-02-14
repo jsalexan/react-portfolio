@@ -1,6 +1,5 @@
 import React from 'react';
 import dogtown from '../../assets/dogtown.png';
-import spr from '../../assets/spr.png';
 import furever from '../../assets/furever-friends.png';
 import theatre from '../../assets/musical-theatre.jpeg';
 import tech from '../../assets/Blog square.png';
@@ -56,16 +55,6 @@ export default function Portfolio() {
                                 <div className='btn-row'>
                                     <a href="https://github.com/jsalexan/theatre-quiz" className='portfolio-btn btn'>GitHub</a>
                                     <a href="https://jsalexan.github.io/theatre-quiz/" className='portfolio-btn btn'>Website</a>
-                                </div>
-                            </div>
-                    </li>
-                    <li>
-                        <img src= { spr } alt="Hands holding two baby platypuses."/>
-                            <div className="overlay">
-                                <span>Seattle Platypus Rescue</span>
-                                <div className='btn-row'>
-                                    <a href="https://github.com/jsalexan/Seattle-Platypus-Rescue" className='portfolio-btn btn'>GitHub</a>
-                                    <a href="https://jsalexan.github.io/Seattle-Platypus-Rescue/" className='portfolio-btn btn'>Website</a>
                                 </div>
                             </div>
                     </li>

@@ -30,9 +30,9 @@ function Footer() {
             </ul>
         </nav>
 
-
-    <h3>JAH Designs 2023</h3>
-
+    <div>
+        <h3>JAH Designs 2023</h3>
+    </div>
 </footer>
 )
 };
