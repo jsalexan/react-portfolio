@@ -6,6 +6,7 @@ import tech from '../../assets/Blog square.png';
 import memory from '../../assets/Notetaker.png';
 import dogtor from '../../assets/Dogtor (1).png';
 
+
 export default function Portfolio() {
   return (
     <section id="portfolio">
@@ -21,6 +22,7 @@ export default function Portfolio() {
                                     <a href="https://github.com/jsalexan/Dogtor-Notes" className='portfolio-btn btn'>GitHub</a>
                                     <a href="https://whispering-plains-29779.herokuapp.com/" className='portfolio-btn btn'>Website</a>
                                 </div>
+                                      <span className='tech-subtitles'>MERN  with GraphQL & Semantic UI</span>                  
                             </div>
                         
                     </li>
@@ -33,6 +35,7 @@ export default function Portfolio() {
                                     <a href="https://github.com/jsalexan/DogTown" className='portfolio-btn btn'>GitHub</a>
                                     <a href="https://min-andrew.github.io/Dog-park-finder/" className='portfolio-btn btn'>Website</a>
                                 </div>
+                                <span className='tech-subtitles'>Google APIs, OpenWeather API</span> 
                             </div>
                         
                     </li>
@@ -45,6 +48,7 @@ export default function Portfolio() {
                                     <a href="https://github.com/jsalexan/Furever-Friends" className='portfolio-btn btn'>GitHub</a>
                                     <a href="https://fast-atoll-54795.herokuapp.com/" className='portfolio-btn btn'>Website</a>
                                 </div>
+                                <span className='tech-subtitles'>MVC with mySQL & Sequelize</span> 
                             </div>
                     </li>
 
@@ -56,6 +60,7 @@ export default function Portfolio() {
                                     <a href="https://github.com/jsalexan/theatre-quiz" className='portfolio-btn btn'>GitHub</a>
                                     <a href="https://jsalexan.github.io/theatre-quiz/" className='portfolio-btn btn'>Website</a>
                                 </div>
+                                <span className='tech-subtitles'>JavaScript, CSS, & HTML</span> 
                             </div>
                     </li>
                     <li>
@@ -66,6 +71,7 @@ export default function Portfolio() {
                                     <a href="https://github.com/jsalexan/tech-blog" className='portfolio-btn btn'>GitHub</a>
                                     <a href="https://hash-tech.herokuapp.com/" className='portfolio-btn btn'>Website</a>
                                 </div>
+                                <span className='tech-subtitles'>mySQL, NodeJS, & Express</span> 
                             </div>
                     </li>
                     <li>
@@ -76,6 +82,7 @@ export default function Portfolio() {
                                     <a href="https://github.com/jsalexan/note-taker" className='portfolio-btn btn'>GitHub</a>
                                     <a href="https://memory-friend.herokuapp.com/" className='portfolio-btn btn'>Website</a>
                                 </div>
+                                <span className='tech-subtitles'>JavaScript, NodeJS, & NPM</span> 
                             </div>
                     </li>
                 </ul>
