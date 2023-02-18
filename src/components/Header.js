@@ -10,7 +10,7 @@ function Header({ currentPage, handlePageChange }) {
         <Navbar.Brand
           href="#About"
           onClick={() => handlePageChange("About")}
-          className={currentPage === "About" ? "nav-link active" : "nav-link"}
+          className={currentPage === "About" ? "nav-link active" : "nav-link ml-auto"}
         >
           Jennifer Alexander-Hill
         </Navbar.Brand>

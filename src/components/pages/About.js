@@ -8,7 +8,7 @@ export default function About() {
 
         </header>
             <div className="about-me-container">
-                <img src={ profilePic } alt="Jennifer Alexander-Hill, a woman with brown hair and blue eyes."/>
+                <img src={ profilePic } alt="Jennifer Alexander-Hill, a woman with brown hair."/>
                     <p>
                         <b>Study. Simplify. Solve.</b>
                         <br /><br />

@@ -293,15 +293,15 @@ footer h3 {
 .submit-button {
     width: 45vmax;
     border-radius: 4px;
-    background-color: olivedrab;
-    color:var(--dark-green);
+    background-color: var(--olive-green);
+    color:khaki;
     font-weight: bold;
     margin-top: 5px;
 }
 
 .submit-button:hover {
-    background-color: var(--olive-green);
-    color:black;
+    background-color: olivedrab;
+    color:khaki;
     font-weight: bold;
 }
 
@@ -313,13 +313,34 @@ footer h3 {
 }
 
 .form-label {
-    color: darkkhaki;
+    color: khaki;
 }
 
-.form.control {
-    color: black;
-    background-color: olivedrab;;
+.form-control {
+    color: khaki;
+    background-color: var(--olive-green);
+    border-color: black;
 }
+
+.form-control:focus  { 
+    background-color: var(--olive-green);
+    border-color: darkkhaki;
+    color: khaki;
+  }
+
+  .form-control:active  { 
+    background-color: var(--olive-green);
+    border-color: darkkhaki;
+    color: khaki;
+  }
+
+  .form-control:-webkit-autofill,
+  .form-control:-webkit-autofill:hover,
+  .form-control:-webkit-autofill:focus,
+  .form-control:-webkit-autofill:active {
+    transition: background-color 5000s;
+    -webkit-text-fill-color: khaki !important;
+  }
 
 /* Contact form */
 .mb-3 {

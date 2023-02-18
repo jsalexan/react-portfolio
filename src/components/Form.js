@@ -1,44 +1,50 @@
-import React from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-export default function Form() {
-  const [formStatus, setFormStatus] = React.useState("Send");
-  const onSubmit = (e) => {
+const Form = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
     e.preventDefault();
-    setFormStatus("Submitted!");
 
-    const { name, email, message } = e.target.elements;
-    let formInfo = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    };
-    console.log(formInfo);
+    emailjs.sendForm(
+      process.env.REACT_APP_SERVICE_ID,
+      process.env.REACT_APP_TEMPLATE_ID,
+      form.current,
+      process.env.REACT_APP_PUBLIC_KEY
+    )
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
   };
+
   return (
     <div className="container mt-5 contact-form ">
-      <form onSubmit={onSubmit}>
-        <div className="mb-3">
-          <label className="form-label" htmlFor="name">
-            Name
-          </label>
-          <input className="form-control" type="text" id="name" required />
-        </div>
-        <div className="mb-3">
-          <label className="form-label" htmlFor="email">
-            Email
-          </label>
-          <input className="form-control" type="email" id="email" required />
-        </div>
-        <div className="mb-3">
-          <label className="form-label" htmlFor="message">
-            Message
-          </label>
-          <textarea className="form-control" id="message" required />
-        </div>
-        <button className="btn  submit-button" type="submit">
-          {formStatus}
-        </button>
-      </form>
+    <form ref={form} onSubmit={sendEmail}>
+
+    <div className="mb-3">
+      <label className="form-label">Name</label>
+      <input className="form-control" type="text" name="user_name" required/>
+      </div>
+
+      <div className="mb-3">
+      <label className="form-label">Email</label>
+      <input className="form-control" type="email" name="user_email" required/>
+      </div>
+
+      <div className="mb-3">
+      <label className="form-label">Message</label>
+      <textarea className="form-control" name="message" required/>
+      </div>
+
+      <input className="btn submit-button" type="submit"/>
+     
+    </form>
     </div>
   );
-}
+};
+
+export default Form;
