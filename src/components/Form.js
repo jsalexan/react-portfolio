@@ -23,7 +23,7 @@ const Form = () => {
 
   return (
     <div className="container mt-5 contact-form ">
-    <form ref={form} onSubmit={sendEmail}>
+    <form ref={form} onSubmit={sendEmail} className='form-group'>
 
     <div className="mb-3">
       <label className="form-label">Name</label>

@@ -298,7 +298,7 @@ footer h3 {
 
 /* Contact page form button */
 .submit-button {
-    width: 45vmax;
+    width: 10vmax;
     border-radius: 4px;
     background-color: var(--olive-green);
     color:khaki;
@@ -349,6 +349,10 @@ footer h3 {
     -webkit-text-fill-color: khaki !important;
   }
 
+textarea {
+    height: 120px;
+}
+
 /* Contact form */
 .mb-3 {
     width: 45vmax;
@@ -364,6 +368,12 @@ footer h3 {
     margin-top: 0px;
 }
 
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 /* Resume page */
 
 
@@ -470,9 +480,8 @@ img #resume-pic:active {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-top: 20px;
 }
-
-
 
 /* ------------------------------------------- */
  @media only screen and (max-width: 600px) {
@@ -498,10 +507,6 @@ img #resume-pic:active {
 
     .form-control {
         width:96%;
-    }
-
-    .submit-button {
-        width: 96%;
     }
 
     .resume-page-container {
