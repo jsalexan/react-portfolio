@@ -234,12 +234,9 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
-
-
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-    color: var(--text-color);
+    color: var(--light-green);
+    padding-top: 20px;
 
  } 
 
@@ -291,6 +288,12 @@ footer h3 {
     background-color: var(--dark-green);
     color: olivedrab;
     width: 100%;
+}
+
+.footer-cont {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /* Contact page form button */
