@@ -40,6 +40,10 @@ html {
     margin-bottom: 0px;
 }
 
+.title-name {
+    font-size: 40px;
+    color: var(--light-green)
+}
 /* Navigation section */
 .nav-link {
     background-color: #112e13;
@@ -78,7 +82,7 @@ a.nav-link:hover {
 h2 {
     text-align: left;
     background-color: var(--dark-green);
-    color: var(--text-color);
+    color: var(--light-green);
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
@@ -131,7 +135,7 @@ p {
     padding-inline-start: 15px;
     flex: 0 0 70%;
     width: 150vmin;
-    color: var(--text-color);
+    color: var(--light-green);
 }
 
 /* Container for images and links to the work samples on the Portfolio page. */
@@ -499,6 +503,8 @@ img #resume-pic:active {
 
     .resume-page-container {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     h2 {
         text-align: center;
