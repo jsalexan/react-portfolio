@@ -3,8 +3,9 @@ import dogtown from '../../assets/dogtown.png';
 import furever from '../../assets/furever-friends.png';
 import theatre from '../../assets/musical-theatre.jpeg';
 import tech from '../../assets/Blog square.png';
-import memory from '../../assets/Notetaker.png';
+import memory from '../../assets/memory-friend.png';
 import dogtor from '../../assets/Dogtor (1).png';
+import regex from '../../assets/Regex.png';
 
 
 export default function Portfolio() {
@@ -75,7 +76,7 @@ export default function Portfolio() {
                             </div>
                     </li>
                     <li>
-                        <img src= { memory } alt="Woman on her lap top with a hash symbol on the cover"/>
+                        <img src= { memory } alt="Graphic of human head filled with flowers"/>
                             <div className="overlay">
                                 <span>Memory Friend</span>
                                 <div className='btn-row'>
@@ -83,6 +84,17 @@ export default function Portfolio() {
                                     <a href="https://memory-friend.herokuapp.com/" className='portfolio-btn btn'>Website</a>
                                 </div>
                                 <span className='tech-subtitles'>JavaScript, NodeJS, & NPM</span> 
+                            </div>
+                    </li>
+                    <li>
+                        <img src= { regex } alt="Yellow planet graphic with asterisks"/>
+                            <div className="overlay">
+                                <span>Regex Gist</span>
+                                <div className='btn-row'>
+                                    <a href="https://github.com/jsalexan/regex-email" className='portfolio-btn btn'>GitHub</a>
+                                    <a href="https://gist.github.com/jsalexan/e6893ff3f21a18280dc1e5bf52177000" className='portfolio-btn btn'>Website</a>
+                                </div>
+                                <span className='tech-subtitles'>Markdown, Regex, Gist</span> 
                             </div>
                     </li>
                 </ul>
