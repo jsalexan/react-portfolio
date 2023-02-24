@@ -100,9 +100,11 @@ ol, ul {
     padding-left: 0rem;
 }
 
-.bordertop {
-    width: 100%;
+.signature {
+    width: 270px;
 }
+
+
 /* Container for the About Me section. */
 .about-me-container {
     display: flex;
