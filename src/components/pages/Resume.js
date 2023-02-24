@@ -1,6 +1,6 @@
 import React from "react";
 
-import resume from "../../assets/JAH Resume 2023.pdf";
+import resume from "../../assets/JAH Technical Resume.pdf";
 
 export default function Resume() {
   return (
