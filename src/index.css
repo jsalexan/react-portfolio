@@ -104,7 +104,6 @@ ol, ul {
     width: 270px;
 }
 
-
 /* Container for the About Me section. */
 .about-me-container {
     display: flex;
@@ -191,7 +190,6 @@ p {
     text-align: center;
     flex-direction: column;
     cursor:auto;
-
   }
 
   .overlay span {
@@ -393,7 +391,7 @@ textarea {
 
 }
 
-img #resume-pic:active {
+#resume-pic:active {
     border: black;
     border-style: groove;
     border-width: 5px;
@@ -401,13 +399,14 @@ img #resume-pic:active {
 
 /* Button size for resume page */
 .custom {
-    border-style: dotted;
+    border-style: groove;
+    background-color: #385a3a;
     border-color: var(--light-green);
     color: var(--light-green);
     text-align: center;
-    width: 140px !important;
-    font-size: 20px;
-    padding: 10px;
+    width: 110px !important;
+    font-size: 14px;
+    padding: 5px;
     border-radius: 5px;
 }
 
@@ -421,16 +420,15 @@ img #resume-pic:active {
 
 /* Titles for skills categories */
  .skills-h3 {
-    color: white;
+    color: var(--light-green);
     text-align: center; 
-    margin-top: 40px;
+    margin-top: 30px;
  }
 
  .resume-page-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
- 
     flex-wrap: wrap;
     align-items: flex-start;
 }
@@ -444,6 +442,7 @@ img #resume-pic:active {
     flex-wrap: wrap;
     width: 50%;
     padding-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .skill-blocks {
@@ -453,13 +452,13 @@ img #resume-pic:active {
     flex-wrap: wrap;
     margin-top: 30px;
     gap: 10px;
-
 }
 
 #resume-pic {
     width: 300px;
     
 }
+
 .resume-container {
     display: flex;
     flex-direction: column;
@@ -518,5 +517,9 @@ img #resume-pic:active {
     }
     h2 {
         text-align: center;
+    }
+
+    .work-container li .overlay {
+    transform: scale(1);
     }
 }

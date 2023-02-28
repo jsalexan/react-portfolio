@@ -4,8 +4,8 @@ import resume from "../../assets/JAH Technical Resume.pdf";
 
 export default function Resume() {
   return (
-    <section className="resume-page-container">
-      <div className="skill-container">
+    <container className="resume-page-container">
+      <section className="skill-container">
         <h3 className="skills-h3">Front End Skills</h3>
 
         <div className="skill-blocks">
@@ -29,6 +29,9 @@ export default function Resume() {
           </div>
           <div className="custom" variant="outline-light" disabled custom>
             Bootstrap
+          </div>
+          <div className="custom" variant="outline-light" disabled custom>
+            Bulma
           </div>
         </div>
 
@@ -62,10 +65,40 @@ export default function Resume() {
           <div className="custom" variant="outline-light" disabled custom>
             GraphQL
           </div>
+          <div className="custom" variant="outline-light" disabled custom>
+            Git
+          </div>
         </div>
-      </div>
 
-      <div className="resume-container">
+        <h3 className="skills-h3">More Skills</h3>
+        <div className="skill-blocks">
+          <div className="custom" variant="outline-light" disabled>
+            HTML
+          </div>
+          <div className="custom" variant="outline-light" disabled>
+            CSS
+          </div>
+          <div className="custom" variant="outline-light" disabled>
+            JavaScript
+          </div>
+          <div className="custom" variant="outline-light" disabled custom>
+            JQuery
+          </div>
+          <div className="custom" variant="outline-light" disabled custom>
+            React
+          </div>
+          <div className="custom" variant="outline-light" disabled custom>
+            Semantic UI
+          </div>
+          <div className="custom" variant="outline-light" disabled custom>
+            Bootstrap
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section className="resume-container">
         <h3 className="skills-h3">Download Resume</h3>
         <div className="resume-link">
           <a className="resume" href={resume} target="_blank" rel="noreferrer">
@@ -76,7 +109,7 @@ export default function Resume() {
             ></img>
           </a>
         </div>
-      </div>
-    </section>
+      </section>
+    </container>
   );
 }

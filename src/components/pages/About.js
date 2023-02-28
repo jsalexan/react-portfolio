@@ -12,7 +12,7 @@ export default function About() {
                     <p>
                         <b>Study. Simplify. Solve.</b>
                         <br /><br />
-                        Jennifer Alexander-Hill is a problem-solver. Whether its developing fundraising CRMs for nonprofit organizations, or – as she finds herself these days – buried in a code refactoring, Jennifer excels in exploring the big picture and then diving deep into the details to help you reach your goals. 
+                        Jennifer Alexander-Hill is a problem-solver. Whether its developing fundraising CRMs for nonprofit organizations, or – as she finds herself these days – buried in a code refactoring, Jennifer excels in creatively exploring the big picture and then diving deep into the details to help you reach your goals. 
                         <br /><br />
                         A graduate of the full stack web development bootcamp at the University of Washington, Jennifer has hands-on experience in everything from CSS, JavaScript, and ReactJS to MySQL, MongoDB, and GraphQL. She prides herself on her stellar work-ethic and her passion for learning new technologies, with a particular interest in creating a simple, intuitive user experience. In her free time, Jennifer volunteers for Seattle Public Schools as a web editor. 
                         <br /><br />
