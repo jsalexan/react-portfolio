@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+require('dotenv').config();
 
 const Form = () => {
   const form = useRef();
