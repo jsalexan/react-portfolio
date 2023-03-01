@@ -300,14 +300,14 @@ footer h3 {
 .submit-button {
     width: 10vmax;
     border-radius: 4px;
-    background-color: var(--olive-green);
+    background-color: #385a3a;
     color: var(--light-green);
     font-weight: bold;
     margin-top: 5px;
 }
 
 .submit-button:hover {
-    background-color: #385a3a;
+    background-color: var(--olive-green);
     color: var(--light-green);
     font-weight: bold;
 }
