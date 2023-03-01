@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.feaad446.css",
-    "main.js": "/react-portfolio/static/js/main.a36d5c09.js",
-    "static/media/Notetaker.png": "/react-portfolio/static/media/Notetaker.c18941ab083e9247cf89.png",
+    "main.css": "/react-portfolio/static/css/main.2dfa6e85.css",
+    "main.js": "/react-portfolio/static/js/main.b850bcd6.js",
     "static/media/Blog square.png": "/react-portfolio/static/media/Blog square.30c072dc70322932669b.png",
     "static/media/furever-friends.png": "/react-portfolio/static/media/furever-friends.5d833270041d11d3920f.png",
     "static/media/musical-theatre.jpeg": "/react-portfolio/static/media/musical-theatre.ebefd313fdeaeb0b4b80.jpeg",
+    "static/media/JAH Technical Resume.pdf": "/react-portfolio/static/media/JAH Technical Resume.e6e6159c3574dc76607c.pdf",
     "static/media/picture logo (1).png": "/react-portfolio/static/media/picture logo (1).319be0ee57ee6229c85b.png",
     "static/media/dogtown.png": "/react-portfolio/static/media/dogtown.8a7fa8d4903b9650d5d6.png",
-    "static/media/JAH Resume 2023.pdf": "/react-portfolio/static/media/JAH Resume 2023.e763b14bb162686a245c.pdf",
+    "static/media/memory-friend.png": "/react-portfolio/static/media/memory-friend.678aa334a21a5af6942b.png",
+    "static/media/Signature.png": "/react-portfolio/static/media/Signature.a354276d6e8c33c4f96e.png",
+    "static/media/Regex.png": "/react-portfolio/static/media/Regex.d7c38637d753783bc015.png",
     "static/media/Dogtor (1).png": "/react-portfolio/static/media/Dogtor (1).0f371dabb11e18b6cc2c.png",
     "index.html": "/react-portfolio/index.html",
-    "main.feaad446.css.map": "/react-portfolio/static/css/main.feaad446.css.map",
-    "main.a36d5c09.js.map": "/react-portfolio/static/js/main.a36d5c09.js.map"
+    "main.2dfa6e85.css.map": "/react-portfolio/static/css/main.2dfa6e85.css.map",
+    "main.b850bcd6.js.map": "/react-portfolio/static/js/main.b850bcd6.js.map"
   },
   "entrypoints": [
-    "static/css/main.feaad446.css",
-    "static/js/main.a36d5c09.js"
+    "static/css/main.2dfa6e85.css",
+    "static/js/main.b850bcd6.js"
   ]
 }
