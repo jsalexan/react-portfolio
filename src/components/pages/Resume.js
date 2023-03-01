@@ -73,27 +73,21 @@ export default function Resume() {
         <h3 className="skills-h3">More Skills</h3>
         <div className="skill-blocks">
           <div className="custom" variant="outline-light" disabled>
-            HTML
+            WordPress
           </div>
           <div className="custom" variant="outline-light" disabled>
-            CSS
+            Raiser's Edge
           </div>
           <div className="custom" variant="outline-light" disabled>
-            JavaScript
+            Tessitura
           </div>
           <div className="custom" variant="outline-light" disabled custom>
-            JQuery
+            NeonCRM
           </div>
           <div className="custom" variant="outline-light" disabled custom>
-            React
+            Zoho Sites
           </div>
-          <div className="custom" variant="outline-light" disabled custom>
-            Semantic UI
-          </div>
-          <div className="custom" variant="outline-light" disabled custom>
-            Bootstrap
-          </div>
-        </div>
+         </div>
       </section>
 
       
