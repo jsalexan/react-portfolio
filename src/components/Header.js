@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Signature from "../assets/Signature.png";
 
 function Header({ currentPage, handlePageChange }) {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
       <Container>
