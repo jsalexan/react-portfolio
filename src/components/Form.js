@@ -8,10 +8,10 @@ const Form = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      process.env.REACT_APP_SERVICE_ID,
-      process.env.REACT_APP_TEMPLATE_ID,
+      'service_b2jw4eg',
+      'template_457w5k4',
       form.current,
-      process.env.REACT_APP_PUBLIC_KEY
+      'fOLiTmeJ01Xf8afBI'
     )
       .then((result) => {
           console.log(result.text);
