@@ -28,8 +28,8 @@
   <br><br>
 
   ## [Installation](#table-of-contents)
-  The website is hosted by GitHub Pages <br>
-  You can find it here: [React Portfolio](https://jsalexan.github.io/react-portfolio/)
+  The website is hosted by Heroku <br>
+  You can find it here: [React Portfolio](https://portfolio-jah.herokuapp.com/)
   <br><br>
   The repository is on GitHub: [GitHub repository for React Portfolio.](https://github.com/jsalexan/react-portfolio) <br>
   There you will find following file types: <br>
@@ -48,14 +48,14 @@
 -Mobile<br><br>
   
 
-  ![Screen capture.](https://user-images.githubusercontent.com/110498167/213355073-e996cc56-fcc3-402e-92cb-eb9df08c7bc7.png)
+  ![Screen capture.](https://user-images.githubusercontent.com/110498167/222015448-0d76b912-281b-4382-acaf-e95a18242633.png)
   <br><br>
 
   ## [Credits](#table-of-contents) 
   I am thankful for the assistance of my UW Full Stack Web Development Bootcamp instructors, teacher assistants, and fellow students.
 
-  
-  <br><br>
+
+  <br>
  
   ## [License](#table-of-contents)
   **MIT** Copyright 2023, Jennifer Alexander<br>
