@@ -301,44 +301,46 @@ footer h3 {
     width: 10vmax;
     border-radius: 4px;
     background-color: var(--olive-green);
-    color:khaki;
+    color: var(--light-green);
     font-weight: bold;
     margin-top: 5px;
 }
 
 .submit-button:hover {
-    background-color: olivedrab;
-    color:khaki;
+    background-color: #385a3a;
+    color: var(--light-green);
     font-weight: bold;
 }
 
-.submit-button:active {
+.submit-button::active {
   
-  background-color:red;
+  background-color: var(--olive-green);
   box-shadow: 0 5px black;
-  transform: translateY(4px);
+  color: var(--light-green);
+  font-weight: bold;
+  transform: translateY(2px);
 }
 
 .form-label {
-    color: khaki;
+    color: var(--light-green);
 }
 
 .form-control {
-    color: khaki;
-    background-color: var(--olive-green);
+    color: var(--light-green);
+    background-color: #385a3a;
     border-color: black;
 }
 
 .form-control:focus  { 
-    background-color: var(--olive-green);
+    background-color: #385a3a;
     border-color: darkkhaki;
-    color: khaki;
+    color: var(--light-green);
   }
 
   .form-control:active  { 
-    background-color: var(--olive-green);
+    background-color: #385a3a;
     border-color: darkkhaki;
-    color: khaki;
+    color: var(--light-green);
   }
 
   .form-control:-webkit-autofill,
@@ -346,7 +348,7 @@ footer h3 {
   .form-control:-webkit-autofill:focus,
   .form-control:-webkit-autofill:active {
     transition: background-color 5000s;
-    -webkit-text-fill-color: khaki !important;
+    -webkit-text-fill-color: var(--light-green) !important;
   }
 
 textarea {
