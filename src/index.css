@@ -525,4 +525,8 @@ textarea {
     .work-container li .overlay {
     transform: scale(1);
     }
+
+    img.signature {
+        width: 250px;
+    }
 }
