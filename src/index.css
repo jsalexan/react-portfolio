@@ -299,12 +299,13 @@ footer h3 {
 
 /* Contact page form button */
 .submit-button {
-    width: 10vmax;
+    width: 100px;
     border-radius: 4px;
     background-color: #385a3a;
     color: var(--light-green);
     font-weight: bold;
     margin-top: 5px;
+    text-align: center;
 }
 
 .submit-button:hover {
@@ -376,6 +377,7 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 30px;
 }
 /* Resume page */
 
@@ -504,7 +506,7 @@ textarea {
     }
 
     .contact-form {
-        margin-top: 60px;
+    
         margin-left: 10px;
         margin-right: 10px;
     }
