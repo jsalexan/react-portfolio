@@ -20,10 +20,12 @@ export default function Portfolio() {
                             <div className="overlay">
                                 <span>Dog-tor's Notes</span>
                                 <div className='btn-row'>
+                                <span className='proj-desc'>An app to help track your dog's health.</span> <br/>
+                                <span className='tech-subtitles'>MERN with GraphQL</span> <br/>
                                     <a href="https://github.com/jsalexan/Dogtor-Notes" className='portfolio-btn btn'>GitHub</a>
                                     <a href="https://whispering-plains-29779.herokuapp.com/" className='portfolio-btn btn'>Website</a>
                                 </div>
-                                      <span className='tech-subtitles'>MERN  with GraphQL & Semantic UI</span>                  
+                                                      
                             </div>
                         
                     </li>
