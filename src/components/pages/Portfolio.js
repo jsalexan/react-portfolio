@@ -6,6 +6,7 @@ import tech from "../../assets/Blog square.png";
 import memory from "../../assets/memory-friend.png";
 import dogtor from "../../assets/Dogtor (1).png";
 import regex from "../../assets/Regex.png";
+import today from "../../assets/today.png";
 
 export default function Portfolio() {
   return (
@@ -152,6 +153,30 @@ export default function Portfolio() {
               </a>
               <a
                 href="https://memory-friend.herokuapp.com/"
+                className="portfolio-btn btn"
+              >
+                Website
+              </a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src={today} alt="Multicolored calendar page" />
+          <div className="overlay">
+            <span className="title">DAILY SCHEDULE</span>
+            <span className="proj-subtitles">
+              A simple app for tracking your schedule.
+            </span>
+            <span className="tech-subtitles">⌨JavaScript, Moment, JQuery⌨</span>
+            <div className="button-row">
+              <a
+                href="https://github.com/jsalexan/congenial-journey"
+                className="portfolio-btn btn"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://jsalexan.github.io/congenial-journey/"
                 className="portfolio-btn btn"
               >
                 Website
