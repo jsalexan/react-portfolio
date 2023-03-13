@@ -1,321 +1,335 @@
-
 * {
-    padding: 0;
-    margin: 0;
-    background-color: #112e13;
+  padding: 0;
+  margin: 0;
+  background-color: #112e13;
 }
 
 html {
-    min-height: 100vh;
-    scroll-behavior: smooth;
+  min-height: 100vh;
+  scroll-behavior: smooth;
 }
 
 .body {
-    background-color: #112e13;
-    min-height: 100vh;
-    padding: 0 20px;
+  background-color: #112e13;
+  min-height: 100vh;
+  padding: 0 20px;
 }
-  /* Most frequently used colors, saved as variables for consistency. */
+/* Most frequently used colors, saved as variables for consistency. */
 :root {
-    --dark-green: #112e13;
-    --olive-green: darkolivegreen;
-    --light-green: #e6f3e0;
-    --text-color: #ffffff;
+  --dark-green: #112e13;
+  --olive-green: darkolivegreen;
+  --light-green: #e6f3e0;
+  --text-color: #ffffff;
 }
 
 /* Header styling. */
 .header {
-    padding: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: var(--olive-green);
-    color: var(--light-green);;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--olive-green);
+  color: var(--light-green);
 }
 
 /* This is the banner. */
 .hero {
-    max-width: 100%;
-    height: auto;
-    height: 30vh;
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  max-width: 100%;
+  height: auto;
+  height: 30vh;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .title-name {
-    font-size: 40px;
-    color: var(--light-green)
+  font-size: 40px;
+  color: var(--light-green);
 }
 /* Navigation section */
 .nav-link {
-    background-color: #112e13;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+  background-color: #112e13;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 a.nav-link {
-    color: var(--light-green);
+  color: var(--light-green);
 }
 
 a.nav-link:visited {
-    color: var(--light-green)
-  }
+  color: var(--light-green);
+}
 
 a.nav-link-active {
-    color: #112e13;
+  color: #112e13;
 }
 
 a.nav-link:hover {
-    color: olivedrab;
+  color: olivedrab;
 }
 
 .navbar-light .navbar-brand {
-    color: var(--light-green);
+  color: var(--light-green);
 }
 
 .navbar {
-    background-color: #112e13;
-} 
+  background-color: #112e13;
+}
 
 /* All page headings. */
 h2 {
-    text-align: left;
-    background-color: var(--dark-green);
-    color: var(--light-green);
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    height: auto;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+  text-align: left;
+  background-color: var(--dark-green);
+  color: var(--light-green);
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  height: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
 }
 
-h3{
-    color: var(--text-color);
-    background-color: #112e13;
+h3 {
+  color: var(--text-color);
+  background-color: #112e13;
 }
 
-ol, ul {
-    padding-left: 0rem;
+ol,
+ul {
+  padding-left: 0rem;
 }
 
 .signature {
-    width: 270px;
+  width: 270px;
 }
 
 /* Container for the About Me section. */
 .about-me-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 40px;
-    margin-bottom: 5px;
-    padding: 20px;
-    padding-top: 0px;
-    min-height: 70vh;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-color: var(--dark-green);
-    color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  padding: 20px;
+  padding-top: 0px;
+  min-height: 70vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--dark-green);
+  color: var(--text-color);
 }
 
 /* Circular profile picture. */
 .about-me-container img {
-    border-radius: 3px;
-    display: inline-block;
-    height: 260px;
-
+  border-radius: 3px;
+  display: inline-block;
+  height: 260px;
 }
 
 /* My bio. */
 p {
-    font-size: 18px;
-    display: inline;
-    padding-inline-start: 15px;
-    flex: 0 0 70%;
-    width: 150vmin;
-    color: var(--light-green);
+  font-size: 18px;
+  display: inline;
+  padding-inline-start: 15px;
+  flex: 0 0 70%;
+  width: 150vmin;
+  color: var(--light-green);
 }
 
 /* Container for images and links to the work samples on the Portfolio page. */
-.work-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    list-style: none;
-    background-color: var(--dark-green);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 5px;
-    /* flex-basis: 80%; */
-  }
-  
-  .work-container li {
-    flex-basis: 350px; width: 350px;
-    position: relative;
-    cursor: pointer;
-  }
-  
-  .work-container li img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    vertical-align: middle;
-    border-radius: 5px;
-  }
-  
-  /* Code for the overlay that appears when you hover over a work sample pic. */
-  .overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 14, 2, 0.63);
-    top: 0;
-    left: 0;
-    transform: scale(0);
-    transition: all 0.2s 0.1s ease-in-out;
-    color: var(--text-color);
-    border-radius: 8px;
-    border-style: double;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    /* Centering overlay text */
-    display:flex;
-    /* align-items: center; */
-    justify-content:center;
-    text-align: center;
-    flex-direction: column;
-    cursor:auto;
-  }
+.portfolio {
+    margin-bottom: 56px;
+}
 
-  .overlay span {
-    background-color: transparent;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 40px;
+.work-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  background-color: var(--dark-green);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 56px;
+  /* flex-basis: 80%; */
+}
+
+.work-container li {
+  flex-basis: 350px;
+  width: 350px;
+  position: relative;
+  cursor: pointer;
+}
+
+.work-container li img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+/* Appears when you hover over a work sample pic. */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 14, 2, 0.8);
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transition: all 0.2s 0.1s ease-in-out;
+  color: var(--dark-green);
+  border-radius: 8px;
+  border-style: double;
+  border-color: var(--light-green);
+  font-size: 30px;
+  font-weight: bold;
+  /* Centering overlay text */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  cursor: auto;
+}
+
+.title {
+  background-color: transparent;
+  margin-top: 125px;
+  color: var(--light-green);
+  text-shadow: 2px 2px 0px var(--dark-green), 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+/* Hover feature.*/
+.work-container li:hover .overlay {
+  transform: scale(1);
+}
+
+.proj-subtitles {
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--text-color);
   }
 
 .tech-subtitles {
     font-size: 14px;
-    margin-top: 20px;
-}
-
-  /* Hover feature.*/
-  .work-container li:hover .overlay {
-    transform: scale(1);
+    margin-bottom: 20px;
+    color: var(--text-color);
   }
 
 .portfolio-btn {
-    display: inline;
-    font-size: 20px;
-    color: var(--dark-green);
-    background-color: var(--light-green);
-    padding: 6px;
-    border-radius: 3px;
-    margin: 8px;
-  }
+  display: inline;
+  font-size: 16px;
+  color: var(--text-color);
+  background-color: var(--olive-green);
+  padding: 6px;
+  width: 120px;
+  height: 30px;
+  border-radius: 3px;
+  margin: 8px;
+  font-weight: bold;
+}
 
-  .portfolio-btn:hover {
-    background-color: var(--dark-green);
-  }
+.portfolio-btn:hover {
+  background-color: var(--text-color);
+  color: var(--dark-green);
+}
 
-  .btn-row {
-    margin-top: 20px;
-    background-color: transparent;
-  }
+.button-row {
+  background-color: transparent;
+}
 
-
-  /* Footer contact-me-container for contact icons. */
+/* Footer contact-me-container for contact icons. */
 .contact-me-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: var(--light-green);
-    padding-top: 20px;
-
- } 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--light-green);
+  padding-top: 20px;
+}
 
 .contact-me-container ul li {
-    display:inline;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    padding-left: 15px;
-    padding-right: 15px;
-    list-style-type: none;
- 
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 15px;
+  padding-right: 15px;
+  list-style-type: none;
 }
 
 /* Height of the link icons. */
 .contact-me-container li img {
-    height: 100px;
+  height: 100px;
 }
 
 /* Footer contact icons */
-.fa-brands, .fa-solid   {
-    color: var(--light-green);
+.fa-brands,
+.fa-solid {
+  color: var(--light-green);
 }
 
-.fa-brands:hover, .fa-solid:hover {
-    color: olivedrab;
+.fa-brands:hover,
+.fa-solid:hover {
+  color: olivedrab;
 }
 
 /* Formatting for footer section. */
 footer {
-    padding: 20px;
-    display: inline;
-    margin: 0;
-    position: sticky;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background-color: #112e13;
-    height: 50px;
-    top: 100vh;
+  padding: 20px;
+  display: inline;
+  margin: 0;
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #112e13;
+  height: 50px;
+  top: 100vh;
 }
 
 footer h3 {
-    font-size: 14px;
-    font-style: italic;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    background-color: var(--dark-green);
-    color: olivedrab;
-    width: 100%;
+  font-size: 14px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: var(--dark-green);
+  color: olivedrab;
+  width: 100%;
 }
 
 .footer-cont {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* Contact page form button */
 .submit-button {
-    width: 100px;
-    border-radius: 4px;
-    background-color: #385a3a;
-    color: var(--light-green);
-    font-weight: bold;
-    margin-top: 5px;
-    text-align: center;
+  width: 100px;
+  border-radius: 4px;
+  background-color: #385a3a;
+  color: var(--light-green);
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
 }
 
 .submit-button:hover {
-    background-color: var(--olive-green);
-    color: var(--light-green);
-    font-weight: bold;
+  background-color: var(--olive-green);
+  color: var(--light-green);
+  font-weight: bold;
 }
 
 .submit-button::active {
-  
   background-color: var(--olive-green);
   box-shadow: 0 5px black;
   color: var(--light-green);
@@ -324,211 +338,205 @@ footer h3 {
 }
 
 .form-label {
-    color: var(--light-green);
+  color: var(--light-green);
 }
 
 .form-control {
-    color: var(--light-green);
-    background-color: #385a3a;
-    border-color: black;
+  color: var(--light-green);
+  background-color: #385a3a;
+  border-color: black;
 }
 
-.form-control:focus  { 
-    background-color: #385a3a;
-    border-color: darkkhaki;
-    color: var(--light-green);
-  }
+.form-control:focus {
+  background-color: #385a3a;
+  border-color: darkkhaki;
+  color: var(--light-green);
+}
 
-  .form-control:active  { 
-    background-color: #385a3a;
-    border-color: darkkhaki;
-    color: var(--light-green);
-  }
+.form-control:active {
+  background-color: #385a3a;
+  border-color: darkkhaki;
+  color: var(--light-green);
+}
 
-  .form-control:-webkit-autofill,
-  .form-control:-webkit-autofill:hover,
-  .form-control:-webkit-autofill:focus,
-  .form-control:-webkit-autofill:active {
-    transition: background-color 5000s;
-    -webkit-text-fill-color: var(--light-green) !important;
-  }
+.form-control:-webkit-autofill,
+.form-control:-webkit-autofill:hover,
+.form-control:-webkit-autofill:focus,
+.form-control:-webkit-autofill:active {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: var(--light-green) !important;
+}
 
 textarea {
-    height: 120px;
+  height: 120px;
 }
 
 /* Contact form */
 .mb-3 {
-    width: 45vmax;
+  width: 45vmax;
 }
 
 .mt-5 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-form {
-    margin-bottom: 10px;
-    margin-top: 0px;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .form-group {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
 }
 /* Resume page */
 
-
-.resume-link{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    margin-top: 30px;
+.resume-link {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-top: 30px;
 }
 
-#resume-pic:hover { 
-    box-shadow: 5px 10px 18px var(--olive-green);
-
+#resume-pic:hover {
+  box-shadow: 5px 10px 18px var(--olive-green);
 }
 
 #resume-pic:active {
-    border: black;
-    border-style: groove;
-    border-width: 5px;
+  border: black;
+  border-style: groove;
+  border-width: 5px;
 }
 
 /* Button size for resume page */
 .custom {
-    border-style: groove;
-    background-color: #385a3a;
-    border-color: var(--light-green);
-    color: var(--light-green);
-    text-align: center;
-    width: 110px !important;
-    font-size: 14px;
-    padding: 5px;
-    border-radius: 5px;
+  border-style: groove;
+  background-color: #385a3a;
+  border-color: var(--light-green);
+  color: var(--light-green);
+  text-align: center;
+  width: 110px !important;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 /* Subtitle for resume link */
 .subtitle {
-    text-align: center;
-    width: 50%;
+  text-align: center;
+  width: 50%;
 }
 
 /* List of relevant skills on Resume page */
 
 /* Titles for skills categories */
- .skills-h3 {
-    color: var(--light-green);
-    text-align: center; 
-    margin-top: 30px;
- }
+.skills-h3 {
+  color: var(--light-green);
+  text-align: center;
+  margin-top: 30px;
+}
 
- .resume-page-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
+.resume-page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .skill-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    flex-wrap: wrap;
-    width: 50%;
-    padding-bottom: 30px;
-    margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  width: 50%;
+  padding-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .skill-blocks {
-    display: flex;  
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 10px;
 }
 
 #resume-pic {
-    width: 300px;
-    
+  width: 300px;
 }
 
 .resume-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    flex-wrap: wrap;
-    width: 50%;
-    padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  width: 50%;
+  padding-bottom: 30px;
 }
 
 .final-thoughts {
-    text-align: center;
-    width: 98%;
-
-
+  text-align: center;
+  width: 98%;
 }
 
 .contact-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
 }
 
 /* ------------------------------------------- */
- @media only screen and (max-width: 600px) {
-    p {
-        flex: 0 0 100%;
-        margin-top: 20px;
-        text-align: center;
-    }
-    
-    .about-me-container {
-        justify-content: center;
-    }
+@media only screen and (max-width: 600px) {
+  p {
+    flex: 0 0 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
 
-    .nav {
-        font-size: 18px;
-    }
+  .about-me-container {
+    justify-content: center;
+  }
 
-    .contact-form {
-    
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+  .nav {
+    font-size: 18px;
+  }
 
-    .form-control {
-        width:96%;
-    }
+  .contact-form {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
-    .resume-page-container {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    h2 {
-        text-align: center;
-    }
+  .form-control {
+    width: 96%;
+  }
 
-    .work-container li .overlay {
+  .resume-page-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h2 {
+    text-align: center;
+  }
+
+  .work-container li .overlay {
     transform: scale(1);
-    }
+  }
 
-    img.signature {
-        width: 250px;
-    }
+  img.signature {
+    width: 250px;
+  }
 }
