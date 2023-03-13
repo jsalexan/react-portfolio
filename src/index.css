@@ -210,6 +210,7 @@ p {
 }
 
 .proj-subtitles {
+    background-color: transparent;
     font-size: 17px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -217,6 +218,7 @@ p {
   }
 
 .tech-subtitles {
+    background-color: transparent;
     font-size: 14px;
     margin-bottom: 20px;
     color: var(--text-color);
