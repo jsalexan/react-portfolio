@@ -46,7 +46,7 @@ export default function Portfolio() {
             <span className="tech-subtitles">
               ⌨Google APIs, OpenWeather API⌨
             </span>
-            <div className="btn-row">
+            <div className="button-row">
               <a
                 href="https://github.com/jsalexan/DogTown"
                 className="portfolio-btn btn"
@@ -71,7 +71,7 @@ export default function Portfolio() {
               A social media app for your dog.
             </span>
             <span className="tech-subtitles">⌨MVC with mySQL & Sequelize⌨</span>
-            <div className="btn-row">
+            <div className="button-row">
               <a
                 href="https://github.com/jsalexan/Furever-Friends"
                 className="portfolio-btn btn"
@@ -94,7 +94,7 @@ export default function Portfolio() {
             <span className="title">BROADWAY QUIZ</span>
             <span className="proj-subtitles">A musical theatre quiz app.</span>
             <span className="tech-subtitles">⌨JavaScript, CSS, & HTML⌨</span>
-            <div className="btn-row">
+            <div className="button-row">
               <a
                 href="https://github.com/jsalexan/theatre-quiz"
                 className="portfolio-btn btn"
@@ -119,7 +119,7 @@ export default function Portfolio() {
             <span className="title">HASH TECH</span>
             <span className="proj-subtitles">A blog for women in tech.</span>
             <span className="tech-subtitles">⌨mySQL, NodeJS, & Express⌨</span>
-            <div className="btn-row">
+            <div className="button-row">
               <a
                 href="https://github.com/jsalexan/tech-blog"
                 className="portfolio-btn btn"
@@ -143,7 +143,7 @@ export default function Portfolio() {
               A simple note taking application.
             </span>
             <span className="tech-subtitles">⌨JavaScript, NodeJS, & NPM⌨</span>
-            <div className="btn-row">
+            <div className="button-row">
               <a
                 href="https://github.com/jsalexan/note-taker"
                 className="portfolio-btn btn"
@@ -165,7 +165,7 @@ export default function Portfolio() {
             <span className="title">REGEX GIST</span>
             <span className="proj-subtitles">Regex for matching email. </span>
             <span className="tech-subtitles">⌨Markdown, Regex, Gist⌨</span>
-            <div className="btn-row">
+            <div className="button-row">
               <a
                 href="https://github.com/jsalexan/regex-email"
                 className="portfolio-btn btn"
