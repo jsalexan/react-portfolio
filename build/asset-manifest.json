@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.abe8c498.css",
-    "main.js": "/react-portfolio/static/js/main.f09d2192.js",
+    "main.js": "/react-portfolio/static/js/main.c422ec98.js",
     "static/media/Blog square.png": "/react-portfolio/static/media/Blog square.30c072dc70322932669b.png",
     "static/media/today.png": "/react-portfolio/static/media/today.cad212798f0e2da3ddf4.png",
     "static/media/furever-friends.png": "/react-portfolio/static/media/furever-friends.5d833270041d11d3920f.png",
     "static/media/musical-theatre.jpeg": "/react-portfolio/static/media/musical-theatre.ebefd313fdeaeb0b4b80.jpeg",
     "static/media/JAH Technical Resume.pdf": "/react-portfolio/static/media/JAH Technical Resume.e6e6159c3574dc76607c.pdf",
     "static/media/picture logo (1).png": "/react-portfolio/static/media/picture logo (1).319be0ee57ee6229c85b.png",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.09544e74a5654ea28213.png",
     "static/media/dogtown.png": "/react-portfolio/static/media/dogtown.8a7fa8d4903b9650d5d6.png",
     "static/media/memory-friend.png": "/react-portfolio/static/media/memory-friend.678aa334a21a5af6942b.png",
     "static/media/Signature.png": "/react-portfolio/static/media/Signature.a354276d6e8c33c4f96e.png",
@@ -15,10 +16,10 @@
     "static/media/Dogtor (1).png": "/react-portfolio/static/media/Dogtor (1).0f371dabb11e18b6cc2c.png",
     "index.html": "/react-portfolio/index.html",
     "main.abe8c498.css.map": "/react-portfolio/static/css/main.abe8c498.css.map",
-    "main.f09d2192.js.map": "/react-portfolio/static/js/main.f09d2192.js.map"
+    "main.c422ec98.js.map": "/react-portfolio/static/js/main.c422ec98.js.map"
   },
   "entrypoints": [
     "static/css/main.abe8c498.css",
-    "static/js/main.f09d2192.js"
+    "static/js/main.c422ec98.js"
   ]
 }

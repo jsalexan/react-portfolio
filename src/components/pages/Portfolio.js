@@ -7,6 +7,7 @@ import memory from "../../assets/memory-friend.png";
 import dogtor from "../../assets/Dogtor (1).png";
 import regex from "../../assets/Regex.png";
 import today from "../../assets/today.png";
+import weather from "../../assets/weather.png";
 
 export default function Portfolio() {
   return (
@@ -199,6 +200,31 @@ export default function Portfolio() {
               </a>
               <a
                 href="https://gist.github.com/jsalexan/e6893ff3f21a18280dc1e5bf52177000"
+                className="portfolio-btn btn"
+              >
+                Website
+              </a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <img src={weather} className="squares" alt="Weather application with icons" />
+          <div className="overlay">
+            <span className="title">WEATHER DASHBOARD</span>
+            <span className="proj-subtitles">
+              A weather dashboard with 5 day forecast.
+            </span>
+            <span className="tech-subtitles">⌨JavaScript, OpenWeather, JQuery⌨</span>
+            <div className="button-row">
+              <a
+                href="https://github.com/jsalexan/weather-dashboard"
+                className="portfolio-btn btn"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://jsalexan.github.io/weather-dashboard/"
                 className="portfolio-btn btn"
               >
                 Website

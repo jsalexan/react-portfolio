@@ -160,6 +160,7 @@ p {
 .work-container li {
   flex-basis: 350px;
   width: 350px;
+  height: 350px;
   position: relative;
   cursor: pointer;
 }
