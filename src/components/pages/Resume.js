@@ -1,6 +1,8 @@
 import React from "react";
 
 import resume from "../../assets/JAH Technical Resume.pdf";
+import resumePic from "../../assets/resume-pic.png";
+
 
 export default function Resume() {
   return (
@@ -97,7 +99,7 @@ export default function Resume() {
         <div className="resume-link">
           <a className="resume" href={resume} target="_blank" rel="noreferrer">
             <img
-              src="https://user-images.githubusercontent.com/110498167/214734937-d71ae0b3-f4be-4895-9a5e-c3e58c548bd5.png"
+              src={resumePic}
               alt="resume"
               id="resume-pic"
             ></img>
