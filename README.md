@@ -7,14 +7,14 @@
   
 
   ## Description
-  This is a React portfolio application that features my web development projects from my time in UW Web Development Bootcamp. 
+  This is a React portfolio application that features my web development projects to date. I will continually update. 
   <br>
 
   For my application, I used the following technologies: React, Bootstrap, NodeJS, CSS, JavaScript, HTML, JSON, GitHub Pages, and Git.
   <br><br>
-  I largely based the design for the site off the original portfolio we created early in the course. But working with React really made the site come to life. I struggled a bit with some of the new processes, but all in all it was pretty straightforward. I can see why so many people love React.
+  I largely based the design for the site off the original portfolio I created early in my bootcamp. But working with React really made the site come to life. I struggled a bit with some of the new processes, but all in all it was pretty straightforward. I can see why so many people love React.
   <br><br>
-  There is so much I'd like to do in the future. I plan on updating the theme of the site. I also plan to redo the resume section, once my new resume is ready. And I'd like to do more to make the app mobile friendly. It is mostly responsive, but I'd like the overlays in the Portfolio section to be static in mobile and that hasn't happened yet. 
+  There is so much I'd like to do in the future. I plan on updating the theme of the site. I also plan to redo the resume section, creating custom stack icons.
   <br><br>
 
 ## Table of Contents
