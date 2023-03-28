@@ -583,4 +583,15 @@ img.tech-stack:not(:hover) {
   img.tech-stack {
     width: 70px;
   }
-}
+
+  #resume-pic {
+    width: 300px;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+  }
+
+  .resume-container {
+    margin-top: 10px;
+    }
+  }
+

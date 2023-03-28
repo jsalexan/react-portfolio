@@ -1,6 +1,5 @@
 import React from "react";
-import laurel from "../../assets/laurel.png";
-import laurel2 from "../../assets/laurel2.png";
+import resumeClip from "../../assets/resume.png";
 import HTML from "../../assets/HTML-LOGO.png";
 import CSS from "../../assets/CSS-LOGO.png";
 import CANVA from "../../assets/CANVA-LOGO.png";
@@ -114,7 +113,7 @@ export default function Resume() {
         <h3 className="skills-h3">RESUME</h3>
         <div className="resume-link">
           <a className="resume" href={resume} target="_blank" rel="noreferrer">
-            <img src={resumePic} alt="resume" id="resume-pic"></img>
+            <img src={resumeClip} alt="resume" id="resume-pic"></img>
           </a>
         </div>
       </section>
