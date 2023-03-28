@@ -22,7 +22,7 @@ const Form = () => {
   };
 
   return (
-    <div className="container mt-5 contact-form ">
+    <div className="container mt-4 contact-form ">
     <form ref={form} onSubmit={sendEmail} className='form-group'>
 
     <div className="mb-3">

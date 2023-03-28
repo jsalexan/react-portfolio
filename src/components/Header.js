@@ -9,13 +9,19 @@ function Header({ currentPage, handlePageChange }) {
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
       <Container>
-        <Navbar.Brand
-          href="#About"
-          onClick={() => handlePageChange("About")}
-          className={currentPage === "About" ? "nav-link active" : "nav-link ml-auto"}
-        >
-          <img src={ Signature } alt="signature of jennifer alexander-hill" className="signature"/>
-        </Navbar.Brand>
+      <Navbar.Brand
+  href="#About"
+  onClick={() => handlePageChange("About")}
+  className={currentPage === "About" ? "nav-link active" : "nav-link ml-auto"}
+>
+  <img
+    src={Signature}
+    alt="fake signature of Jennifer Alexander-Hill"
+    className="signature"
+    onClick={() => handlePageChange("About")}
+  />
+</Navbar.Brand>
+
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="justify-content-end" style={{ width: "100%" }}>

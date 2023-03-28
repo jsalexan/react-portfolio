@@ -142,7 +142,7 @@ export default function Portfolio() {
           <div className="overlay">
             <span className="title">MEMORY FRIEND</span>
             <span className="proj-subtitles">
-              A simple note taking application.
+              A note taking application.
             </span>
             <span className="tech-subtitles">⌨JavaScript, NodeJS, & NPM⌨</span>
             <div className="button-row">
@@ -166,7 +166,7 @@ export default function Portfolio() {
           <div className="overlay">
             <span className="title">DAILY SCHEDULE</span>
             <span className="proj-subtitles">
-              A simple app for tracking your schedule.
+              An app for tracking your schedule.
             </span>
             <span className="tech-subtitles">⌨JavaScript, Moment, JQuery⌨</span>
             <div className="button-row">
@@ -211,7 +211,7 @@ export default function Portfolio() {
         <li>
           <img src={weather} className="squares" alt="Weather application with icons" />
           <div className="overlay">
-            <span className="title">WEATHER DASHBOARD</span>
+            <span className="title">WEATHER BASE</span>
             <span className="proj-subtitles">
               A weather dashboard with 5 day forecast.
             </span>

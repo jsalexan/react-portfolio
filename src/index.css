@@ -45,7 +45,7 @@ html {
   color: var(--light-green);
 }
 /* Navigation section */
-.nav-link {
+a.nav-link {
   background-color: #112e13;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -54,19 +54,19 @@ html {
   padding-top: 10px;
 }
 
-a.nav-link {
+.nav-link {
+  color: var(--text-color);
+}
+
+.nav-link:visited {
   color: var(--light-green);
 }
 
-a.nav-link:visited {
-  color: var(--light-green);
+a.nav-link.active {
+  color: var(--text-color);
 }
 
-a.nav-link-active {
-  color: #112e13;
-}
-
-a.nav-link:hover {
+.nav-link:hover {
   color: olivedrab;
 }
 
@@ -131,6 +131,7 @@ ul {
 
 /* My bio. */
 p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
   display: inline;
   padding-inline-start: 15px;
@@ -141,7 +142,7 @@ p {
 
 /* Container for images and links to the work samples on the Portfolio page. */
 .portfolio {
-    margin-bottom: 56px;
+  margin-bottom: 56px;
 }
 
 .work-container {
@@ -183,6 +184,7 @@ p {
   left: 0;
   transform: scale(0);
   transition: all 0.2s 0.1s ease-in-out;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: var(--dark-green);
   border-radius: 8px;
   border-style: double;
@@ -199,10 +201,11 @@ p {
 }
 
 .title {
+  font-family: "PT Sans Narrow", sans-serif;
   background-color: transparent;
   margin-top: 125px;
   color: var(--light-green);
-  text-shadow: 2px 2px 0px var(--dark-green), 4px 4px 0px rgba(0,0,0,0.25);
+  text-shadow: 2px 2px 0px var(--dark-green), 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 /* Hover feature.*/
@@ -211,19 +214,21 @@ p {
 }
 
 .proj-subtitles {
-    background-color: transparent;
-    font-size: 17px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: var(--text-color);
-  }
+  font-family: "PT Sans Narrow", sans-serif;
+  background-color: transparent;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
 
 .tech-subtitles {
-    background-color: transparent;
-    font-size: 14px;
-    margin-bottom: 20px;
-    color: var(--text-color);
-  }
+  font-family: "PT Sans Narrow", sans-serif;
+  background-color: transparent;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
 
 .portfolio-btn {
   display: inline;
@@ -245,6 +250,7 @@ p {
 
 .button-row {
   background-color: transparent;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 /* Footer contact-me-container for contact icons. */
@@ -317,11 +323,12 @@ footer h3 {
 
 /* Contact page form button */
 .submit-button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100px;
   border-radius: 4px;
   background-color: #385a3a;
   color: var(--light-green);
-  font-weight: bold;
+
   margin-top: 5px;
   text-align: center;
 }
@@ -342,9 +349,11 @@ footer h3 {
 
 .form-label {
   color: var(--light-green);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .form-control {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: var(--light-green);
   background-color: #385a3a;
   border-color: black;
@@ -379,7 +388,7 @@ textarea {
   width: 45vmax;
 }
 
-.mt-5 {
+.mt-4 {
   display: flex;
   justify-content: center;
 }
@@ -407,16 +416,6 @@ textarea {
   margin-top: 30px;
 }
 
-#resume-pic:hover {
-  box-shadow: 5px 10px 18px var(--olive-green);
-}
-
-#resume-pic:active {
-  border: black;
-  border-style: groove;
-  border-width: 5px;
-}
-
 /* Button size for resume page */
 .custom {
   border-style: groove;
@@ -432,6 +431,7 @@ textarea {
 
 /* Subtitle for resume link */
 .subtitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   width: 50%;
 }
@@ -440,9 +440,11 @@ textarea {
 
 /* Titles for skills categories */
 .skills-h3 {
+  font-size: 20px;
+  font-family: "PT Sans Narrow", sans-serif;
   color: var(--light-green);
   text-align: center;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .resume-page-container {
@@ -470,12 +472,40 @@ textarea {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 30px;
-  gap: 10px;
+  margin-top: 15px;
+  gap: 1px;
+}
+
+img.tech-stack {
+  width: 100px;
+  background: transparent;
+  transition: transform 0.3s ease;
+}
+
+img.tech-stack:hover {
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+img.tech-stack:not(:hover) {
+  transform: scale(1);
+  z-index: 0;
 }
 
 #resume-pic {
   width: 300px;
+  transition: transform 0.3s ease;
+}
+
+#resume-pic:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+#resume-pic:active {
+  border: black;
+  border-style: groove;
+  border-width: 5px;
 }
 
 .resume-container {
@@ -489,7 +519,14 @@ textarea {
   padding-bottom: 30px;
 }
 
+.laurel {
+  width: 60px;
+}
+
 .final-thoughts {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: var(--light-green);
   text-align: center;
   width: 98%;
 }
@@ -541,5 +578,9 @@ textarea {
 
   img.signature {
     width: 250px;
+  }
+
+  img.tech-stack {
+    width: 70px;
   }
 }

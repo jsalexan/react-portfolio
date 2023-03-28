@@ -16,7 +16,7 @@ export default function About() {
                         <br /><br />
                         A graduate of the full stack web development bootcamp at the University of Washington, Jennifer has hands-on experience in everything from CSS, JavaScript, and ReactJS to MySQL, MongoDB, and GraphQL. She prides herself on her stellar work-ethic and her passion for learning new technologies, with a particular interest in creating a simple, intuitive user experience. In her free time, Jennifer volunteers for Seattle Public Schools as a web editor. 
                         <br /><br />
-                        Originally from New Jersey, Jennifer loves Seattle weather, experimenting with CSS, musical theatre, her ukuleles, and hemp milk lattes. 
+                        Originally from New Jersey, Jennifer loves Seattle weather, experimenting with CSS, musical theatre, genealogical research, and her ukuleles. 
                         <br /><br />
                         Learn more about her work and then reach out for a chat. 
                     </p>

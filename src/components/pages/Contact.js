@@ -8,7 +8,7 @@ export default function Contact() {
     <div className='contact-page-container'>
     <div className='contact-container'>
         <p className="final-thoughts">Thank you so much for visiting! 
-                        <br />Why not drop me a note?</p>
+                        <br />Why not drop a note?</p>
         <Form />       
     </div>
     </div>
