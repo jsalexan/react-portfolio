@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  background-color: #112e13;
+  background-color: var(--dark-green);
 }
 
 html {
@@ -10,7 +10,7 @@ html {
 }
 
 .body {
-  background-color: #112e13;
+  background-color: var(--dark-green);
   min-height: 100vh;
   padding: 0 20px;
 }
@@ -19,6 +19,7 @@ html {
   --dark-green: #112e13;
   --olive-green: darkolivegreen;
   --light-green: #e6f3e0;
+  --other-green: #385a3a;
   --text-color: #ffffff;
 }
 
@@ -46,7 +47,7 @@ html {
 }
 /* Navigation section */
 a.nav-link {
-  background-color: #112e13;
+  background-color: var(--dark-green);
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
@@ -67,7 +68,7 @@ a.nav-link.active {
 }
 
 .nav-link:hover {
-  color: olivedrab;
+  color: var(--olive-green);
 }
 
 .navbar-light .navbar-brand {
@@ -75,7 +76,7 @@ a.nav-link.active {
 }
 
 .navbar {
-  background-color: #112e13;
+  background-color: var(--dark-green);
 }
 
 /* All page headings. */
@@ -93,7 +94,7 @@ h2 {
 
 h3 {
   color: var(--text-color);
-  background-color: #112e13;
+  background-color: var(--dark-green);
 }
 
 ol,
@@ -287,7 +288,7 @@ p {
 
 .fa-brands:hover,
 .fa-solid:hover {
-  color: olivedrab;
+  color: var(--olive-green);
 }
 
 /* Formatting for footer section. */
@@ -300,7 +301,7 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: #112e13;
+  background-color: var(--dark-green);
   height: 50px;
   top: 100vh;
 }
@@ -311,7 +312,7 @@ footer h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   background-color: var(--dark-green);
-  color: olivedrab;
+  color: var(--olive-green);
   width: 100%;
 }
 
@@ -321,12 +322,12 @@ footer h3 {
   flex-direction: column;
 }
 
-/* Contact page form button */
+/* Contact page form button----------------------------------------------------------------- */
 .submit-button {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100px;
   border-radius: 4px;
-  background-color: #385a3a;
+  background-color: var(--other-green);
   color: var(--light-green);
 
   margin-top: 5px;
@@ -355,18 +356,18 @@ footer h3 {
 .form-control {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: var(--light-green);
-  background-color: #385a3a;
+  background-color: var(--other-green);
   border-color: black;
 }
 
 .form-control:focus {
-  background-color: #385a3a;
+  background-color: var(--other-green);
   border-color: darkkhaki;
   color: var(--light-green);
 }
 
 .form-control:active {
-  background-color: #385a3a;
+  background-color: var(--other-green);
   border-color: darkkhaki;
   color: var(--light-green);
 }
@@ -419,7 +420,7 @@ textarea {
 /* Button size for resume page */
 .custom {
   border-style: groove;
-  background-color: #385a3a;
+  background-color: var(--other-green);
   border-color: var(--light-green);
   color: var(--light-green);
   text-align: center;
