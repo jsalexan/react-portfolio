@@ -20,7 +20,7 @@ export default function Portfolio() {
             <span className="proj-subtitles">
               An app to track your dog's health.
             </span>
-            <span className="tech-subtitles"> ⌨MERN with GraphQL⌨</span>
+            <span className="tech-subtitles"> ⌨ MERN with GraphQL ⌨</span>
             <div className="button-row">
               <a
                 href="https://github.com/jsalexan/Dogtor-Notes"
@@ -46,7 +46,7 @@ export default function Portfolio() {
               An app to help locate dog parks.
             </span>
             <span className="tech-subtitles">
-              ⌨Google APIs, OpenWeather API⌨
+              ⌨ Google APIs, OpenWeather API ⌨
             </span>
             <div className="button-row">
               <a
@@ -72,7 +72,7 @@ export default function Portfolio() {
             <span className="proj-subtitles">
               A social media app for your dog.
             </span>
-            <span className="tech-subtitles">⌨MVC with mySQL & Sequelize⌨</span>
+            <span className="tech-subtitles">⌨ MVC with mySQL & Sequelize ⌨</span>
             <div className="button-row">
               <a
                 href="https://github.com/jsalexan/Furever-Friends"
@@ -95,7 +95,7 @@ export default function Portfolio() {
           <div className="overlay">
             <span className="title">BROADWAY QUIZ</span>
             <span className="proj-subtitles">A musical theatre quiz app.</span>
-            <span className="tech-subtitles">⌨JavaScript, CSS, & HTML⌨</span>
+            <span className="tech-subtitles">⌨ JavaScript, CSS, & HTML ⌨</span>
             <div className="button-row">
               <a
                 href="https://github.com/jsalexan/theatre-quiz"
@@ -120,7 +120,7 @@ export default function Portfolio() {
           <div className="overlay">
             <span className="title">HASH TECH</span>
             <span className="proj-subtitles">A blog for women in tech.</span>
-            <span className="tech-subtitles">⌨mySQL, NodeJS, & Express⌨</span>
+            <span className="tech-subtitles">⌨ mySQL, NodeJS, & Express ⌨</span>
             <div className="button-row">
               <a
                 href="https://github.com/jsalexan/tech-blog"
@@ -144,7 +144,7 @@ export default function Portfolio() {
             <span className="proj-subtitles">
               A note taking application.
             </span>
-            <span className="tech-subtitles">⌨JavaScript, NodeJS, & NPM⌨</span>
+            <span className="tech-subtitles">⌨ JavaScript, NodeJS, & NPM ⌨</span>
             <div className="button-row">
               <a
                 href="https://github.com/jsalexan/note-taker"
@@ -168,7 +168,7 @@ export default function Portfolio() {
             <span className="proj-subtitles">
               An app for tracking your schedule.
             </span>
-            <span className="tech-subtitles">⌨JavaScript, Moment, JQuery⌨</span>
+            <span className="tech-subtitles">⌨ JavaScript, Moment, JQuery ⌨</span>
             <div className="button-row">
               <a
                 href="https://github.com/jsalexan/congenial-journey"
@@ -190,7 +190,7 @@ export default function Portfolio() {
           <div className="overlay">
             <span className="title">REGEX GIST</span>
             <span className="proj-subtitles">Regex for matching email. </span>
-            <span className="tech-subtitles">⌨Markdown, Regex, Gist⌨</span>
+            <span className="tech-subtitles">⌨ Markdown, Regex, Gist ⌨</span>
             <div className="button-row">
               <a
                 href="https://github.com/jsalexan/regex-email"
@@ -215,7 +215,7 @@ export default function Portfolio() {
             <span className="proj-subtitles">
               A weather dashboard with 5 day forecast.
             </span>
-            <span className="tech-subtitles">⌨JavaScript, OpenWeather, JQuery⌨</span>
+            <span className="tech-subtitles">⌨ JavaScript, OpenWeather, JQuery ⌨</span>
             <div className="button-row">
               <a
                 href="https://github.com/jsalexan/weather-dashboard"

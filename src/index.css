@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  background-color: var(--dark-green);
+  background-color: var(--main-background);
 }
 
 html {
@@ -10,25 +10,33 @@ html {
 }
 
 .body {
-  background-color: var(--dark-green);
+  background-color: var(--main-background);
   min-height: 100vh;
   padding: 0 20px;
 }
 /* Most frequently used colors, saved as variables for consistency. */
 :root {
-  --dark-green: #112e13;
-  --olive-green: darkolivegreen;
-  --light-green: #e6f3e0;
-  --other-green: #385a3a;
-  --text-color: #ffffff;
+  --main-background: black;
+  --third-tone: gold;
+  --text-color: white;
+  --second-tone: gray;
+  --contrast: #ffffff;
 }
+/* green theme */
+/* :original-root {
+  --main-background: #112e13;
+  --third-tone: darkolivegreen;
+  --text-color: #e6f3e0;
+  --second-tone: #385a3a;
+  --contrast: #ffffff;
+} */
 
 /* Header styling. */
 .header {
   padding: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: var(--olive-green);
-  color: var(--light-green);
+  background-color: var(--third-tone);
+  color: var(--text-color);
 }
 
 /* This is the banner. */
@@ -43,12 +51,12 @@ html {
 
 .title-name {
   font-size: 40px;
-  color: var(--light-green);
+  color: var(--text-color);
 }
 /* Navigation section */
 a.nav-link {
-  background-color: var(--dark-green);
-  color: white;
+  background-color: var(--main-background);
+  color: var(--contrast);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   padding-bottom: 10px;
@@ -56,34 +64,34 @@ a.nav-link {
 }
 
 .nav-link {
-  color: var(--text-color);
+  color: var(--contrast);
 }
 
 .nav-link:visited {
-  color: var(--light-green);
-}
-
-a.nav-link.active {
   color: var(--text-color);
 }
 
+a.nav-link.active {
+  color: var(--third-tone);
+}
+
 .nav-link:hover {
-  color: var(--olive-green);
+  color: var(--third-tone);
 }
 
 .navbar-light .navbar-brand {
-  color: var(--light-green);
+  color: var(--text-color);
 }
 
 .navbar {
-  background-color: var(--dark-green);
+  background-color: var(--main-background);
 }
 
 /* All page headings. */
 h2 {
   text-align: left;
-  background-color: var(--dark-green);
-  color: var(--light-green);
+  background-color: var(--main-background);
+  color: var(--text-color);
   padding-top: 10px;
   padding-left: 10px;
   padding-bottom: 10px;
@@ -93,8 +101,8 @@ h2 {
 }
 
 h3 {
-  color: var(--text-color);
-  background-color: var(--dark-green);
+  color: var(--contrast);
+  background-color: var(--main-background);
 }
 
 ol,
@@ -119,8 +127,8 @@ ul {
   padding-top: 0px;
   min-height: 70vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: var(--dark-green);
-  color: var(--text-color);
+  background-color: var(--main-background);
+  color: var(--contrast);
 }
 
 /* Circular profile picture. */
@@ -130,6 +138,9 @@ ul {
   height: 260px;
 }
 
+.polaroid {
+  width: 
+}
 /* My bio. */
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -138,7 +149,7 @@ p {
   padding-inline-start: 15px;
   flex: 0 0 70%;
   width: 150vmin;
-  color: var(--light-green);
+  color: var(--text-color);
 }
 
 /* Container for images and links to the work samples on the Portfolio page. */
@@ -152,7 +163,7 @@ p {
   justify-content: center;
   gap: 20px;
   list-style: none;
-  background-color: var(--dark-green);
+  background-color: var(--main-background);
   padding-top: 20px;
   padding-bottom: 20px;
   margin-bottom: 56px;
@@ -180,16 +191,16 @@ p {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(0, 14, 2, 0.8);
+  background: rgba(15, 14, 14, 0.725);
   top: 0;
   left: 0;
   transform: scale(0);
   transition: all 0.2s 0.1s ease-in-out;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--dark-green);
+  color: var(--main-background);
   border-radius: 8px;
   border-style: double;
-  border-color: var(--light-green);
+  border-color: var(--third-tone);
   font-size: 30px;
   font-weight: bold;
   /* Centering overlay text */
@@ -205,8 +216,8 @@ p {
   font-family: "PT Sans Narrow", sans-serif;
   background-color: transparent;
   margin-top: 125px;
-  color: var(--light-green);
-  text-shadow: 2px 2px 0px var(--dark-green), 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: var(--third-tone);
+  text-shadow: 2px 2px 0px var(--main-background), 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 /* Hover feature.*/
@@ -220,7 +231,7 @@ p {
   font-size: 17px;
   margin-top: 20px;
   margin-bottom: 10px;
-  color: var(--text-color);
+  color: var(--contrast);
 }
 
 .tech-subtitles {
@@ -228,14 +239,14 @@ p {
   background-color: transparent;
   font-size: 14px;
   margin-bottom: 20px;
-  color: var(--text-color);
+  color: var(--contrast);
 }
 
 .portfolio-btn {
   display: inline;
   font-size: 16px;
-  color: var(--text-color);
-  background-color: var(--olive-green);
+  color: var(--main-background);
+  background-color: var(--third-tone);
   padding: 6px;
   width: 120px;
   height: 30px;
@@ -245,8 +256,9 @@ p {
 }
 
 .portfolio-btn:hover {
-  background-color: var(--text-color);
-  color: var(--dark-green);
+  background-color: var(--main-background);
+  color: var(--third-tone);
+  border-color: var(--third-tone);
 }
 
 .button-row {
@@ -261,7 +273,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--light-green);
+  color: var(--text-color);
   padding-top: 20px;
 }
 
@@ -283,12 +295,12 @@ p {
 /* Footer contact icons */
 .fa-brands,
 .fa-solid {
-  color: var(--light-green);
+  color: var(--text-color);
 }
 
 .fa-brands:hover,
 .fa-solid:hover {
-  color: var(--olive-green);
+  color: var(--third-tone);
 }
 
 /* Formatting for footer section. */
@@ -301,7 +313,7 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: var(--dark-green);
+  background-color: var(--main-background);
   height: 50px;
   top: 100vh;
 }
@@ -311,8 +323,8 @@ footer h3 {
   font-style: italic;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
-  background-color: var(--dark-green);
-  color: var(--olive-green);
+  background-color: var(--main-background);
+  color: var(--third-tone);
   width: 100%;
 }
 
@@ -327,49 +339,49 @@ footer h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100px;
   border-radius: 4px;
-  background-color: var(--other-green);
-  color: var(--light-green);
+  background-color: var(--third-tone);
+  color: var(--main-background);
 
   margin-top: 5px;
   text-align: center;
 }
 
 .submit-button:hover {
-  background-color: var(--olive-green);
-  color: var(--light-green);
-  font-weight: bold;
+  background-color: var(--main-background);
+  color: var(--third-tone);
+  border-color: var(--third-tone);
 }
 
-.submit-button::active {
-  background-color: var(--olive-green);
+input.btn.submit-button:active {
+  background-color: var(--third-tone);
   box-shadow: 0 5px black;
-  color: var(--light-green);
+  color: var(--main-background);
   font-weight: bold;
   transform: translateY(2px);
 }
 
 .form-label {
-  color: var(--light-green);
+  color: var(--third-tone);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .form-control {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--light-green);
-  background-color: var(--other-green);
-  border-color: black;
+  color: var(--text-color);
+  background-color: rgba(37, 36, 36, 0.98);
+  border-color: rgb(30, 29, 29);
 }
 
 .form-control:focus {
-  background-color: var(--other-green);
+  background-color: rgba(37, 36, 36, 0.98);
   border-color: darkkhaki;
-  color: var(--light-green);
+  color: var(--text-color);
 }
 
 .form-control:active {
-  background-color: var(--other-green);
+  background-color: rgba(37, 36, 36, 0.98);
   border-color: darkkhaki;
-  color: var(--light-green);
+  color: var(--text-color);
 }
 
 .form-control:-webkit-autofill,
@@ -377,7 +389,7 @@ footer h3 {
 .form-control:-webkit-autofill:focus,
 .form-control:-webkit-autofill:active {
   transition: background-color 5000s;
-  -webkit-text-fill-color: var(--light-green) !important;
+  -webkit-text-fill-color: var(--text-color) !important;
 }
 
 textarea {
@@ -420,9 +432,9 @@ textarea {
 /* Button size for resume page */
 .custom {
   border-style: groove;
-  background-color: var(--other-green);
-  border-color: var(--light-green);
-  color: var(--light-green);
+  background-color: var(--second-tone);
+  border-color: var(--text-color);
+  color: var(--text-color);
   text-align: center;
   width: 110px !important;
   font-size: 14px;
@@ -443,7 +455,7 @@ textarea {
 .skills-h3 {
   font-size: 20px;
   font-family: "PT Sans Narrow", sans-serif;
-  color: var(--light-green);
+  color: var(--third-tone);
   text-align: center;
   margin-top: 40px;
 }
@@ -527,7 +539,7 @@ img.tech-stack:not(:hover) {
 .final-thoughts {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
-  color: var(--light-green);
+  color: var(--third-tone);
   text-align: center;
   width: 98%;
 }

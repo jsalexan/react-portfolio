@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePic from '../../assets/picture logo (1).png';
+import profilePic from '../../assets/polaroid.png';
 
 export default function About() {
   return (
@@ -8,7 +8,7 @@ export default function About() {
 
         </header>
             <div className="about-me-container">
-                <img src={ profilePic } alt="Jennifer Alexander-Hill, a woman with brown hair."/>
+                <img className="polaroid" src={ profilePic } alt="Jennifer Alexander-Hill, a woman with brown hair."/>
                     <p>
                         <b>Study. Simplify. Solve.</b>
                         <br /><br />
