@@ -63,20 +63,16 @@ a.nav-link {
   padding-top: 10px;
 }
 
-.nav-link {
+a.nav-link {
   color: var(--contrast);
 }
 
-.nav-link:visited {
-  color: var(--text-color);
+a.nav-link:active {
+  color: var(--third-tone)!important;
 }
 
-a.nav-link.active {
-  color: var(--third-tone);
-}
-
-.nav-link:hover {
-  color: var(--third-tone);
+a.nav-link:hover {
+  color: var(--third-tone)!important;
 }
 
 .navbar-light .navbar-brand {
@@ -111,7 +107,7 @@ ul {
 }
 
 .signature {
-  width: 270px;
+  width: 250px;
 }
 
 /* Container for the About Me section. */
@@ -549,6 +545,32 @@ img.tech-stack:not(:hover) {
   justify-content: center;
   flex-direction: column;
   padding-top: 20px;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: 
+#0087ca;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: 
+#0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 /* ------------------------------------------- */

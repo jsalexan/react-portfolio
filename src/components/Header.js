@@ -7,18 +7,18 @@ import Signature from "../assets/Signature.png";
 function Header({ currentPage, handlePageChange }) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
   return (
-    <Navbar collapseOnSelect expand="lg" variant="dark" sticky="top">
+    <Navbar 
+    collapseOnSelect expand="lg" variant="dark" sticky="top">
       <Container>
       <Navbar.Brand
-  href="#About"
+  href="/"
   onClick={() => handlePageChange("About")}
-  className={currentPage === "About" ? "nav-link active" : "nav-link ml-auto"}
+  className="nav-link active"
 >
   <img
     src={Signature}
     alt="fake signature of Jennifer Alexander-Hill"
     className="signature"
-    onClick={() => handlePageChange("About")}
   />
 </Navbar.Brand>
 
@@ -28,36 +28,32 @@ function Header({ currentPage, handlePageChange }) {
             <Nav.Link
               href="#About"
               onClick={() => handlePageChange("About")}
-              className={
-                currentPage === "About" ? "nav-link active" : "nav-link"
-              }
+              className="nav-link"
+              
             >
               About
             </Nav.Link>
             <Nav.Link
               href="#Portfolio"
               onClick={() => handlePageChange("Portfolio")}
-              className={
-                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
-              }
+              className="nav-link"
+              
             >
               Portfolio
             </Nav.Link>
             <Nav.Link
               href="#Resume"
               onClick={() => handlePageChange("Resume")}
-              className={
-                currentPage === "Resume" ? "nav-link active" : "nav-link"
-              }
+              className="nav-link"
+              
             >
               Resume
             </Nav.Link>
             <Nav.Link
               href="#Contact"
               onClick={() => handlePageChange("Contact")}
-              className={
-                currentPage === "Contact" ? "nav-link active" : "nav-link"
-              }
+              className="nav-link"
+              
             >
               Contact
             </Nav.Link>
