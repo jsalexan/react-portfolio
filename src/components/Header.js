@@ -2,61 +2,61 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Link } from "react-router-dom";
 import Signature from "../assets/Signature.png";
 
 function Header({ currentPage, handlePageChange }) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
   return (
     <Navbar 
-      collapseOnSelect 
-      expand="lg" 
-      variant="dark" 
-      sticky="top"
-    >
+    collapseOnSelect expand="lg" variant="dark" sticky="top">
       <Container>
-        <Link 
-          to="/"
-          onClick={() => handlePageChange("About")}
-          className="nav-link active"
-        >
-          <img
-            src={Signature}
-            alt="fake signature of Jennifer Alexander-Hill"
-            className="signature"
-          />
-        </Link>
+      <Navbar.Brand
+  href="/"
+  onClick={() => handlePageChange("About")}
+  className="nav-link active"
+>
+  <img
+    src={Signature}
+    alt="fake signature of Jennifer Alexander-Hill"
+    className="signature"
+  />
+</Navbar.Brand>
+
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="justify-content-end" style={{ width: "100%" }}>
-            <Link 
-              to="/"
+            <Nav.Link
+              href="#About"
               onClick={() => handlePageChange("About")}
-              className={`nav-link ${currentPage === "About" ? "active" : ""}`}
+              className="nav-link"
+              
             >
               About
-            </Link>
-            <Link 
-              to="/Portfolio"
+            </Nav.Link>
+            <Nav.Link
+              href="#Portfolio"
               onClick={() => handlePageChange("Portfolio")}
-              className={`nav-link ${currentPage === "Portfolio" ? "active" : ""}`}
+              className="nav-link"
+              
             >
               Portfolio
-            </Link>
-            <Link 
-              to="/Resume"
+            </Nav.Link>
+            <Nav.Link
+              href="#Resume"
               onClick={() => handlePageChange("Resume")}
-              className={`nav-link ${currentPage === "Resume" ? "active" : ""}`}
+              className="nav-link"
+              
             >
               Resume
-            </Link>
-            <Link 
-              to="/Contact"
+            </Nav.Link>
+            <Nav.Link
+              href="#Contact"
               onClick={() => handlePageChange("Contact")}
-              className={`nav-link ${currentPage === "Contact" ? "active" : ""}`}
+              className="nav-link"
+              
             >
               Contact
-            </Link>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -15,7 +15,7 @@
   <br><br>
   I largely based the design for the site off the original portfolio I created early in my bootcamp. But working with React really made the site come to life. I struggled a bit with some of the new processes, but all in all it was pretty straightforward. I can see why so many people love React.
   <br><br>
-  There is so much I'd like to do in the future. I'd like to add some animations and possibly rework the portfolio section.
+  There is so much I'd like to do in the future. I plan on updating the theme of the site. I also plan to redo the resume section, creating custom stack icons.
   <br><br>
 
 ## Table of Contents
