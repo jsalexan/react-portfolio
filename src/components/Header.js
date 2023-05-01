@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -6,7 +6,10 @@ import { Link } from "react-router-dom";
 import Signature from "../assets/Signature.png";
 
 function Header({ currentPage, handlePageChange }) {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
+
   return (
     <Navbar 
       collapseOnSelect 
@@ -63,4 +66,5 @@ function Header({ currentPage, handlePageChange }) {
     </Navbar>
   );
 }
+
 export default Header;
