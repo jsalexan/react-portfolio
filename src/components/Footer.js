@@ -26,11 +26,6 @@ function Footer() {
               <i className="fa-brands fa-linkedin fa-2xl"></i>
             </a>
           </li>
-          <li>
-            <a href="https://twitter.com/JSAH2000">
-              <i className="fa-brands fa-twitter fa-2xl"></i>
-            </a>
-          </li>
         </ul>
         </div>
         <div>
