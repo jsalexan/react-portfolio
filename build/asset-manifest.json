@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.f65028f6.css",
-    "main.js": "/react-portfolio/static/js/main.77efe47b.js",
+    "main.css": "/react-portfolio/static/css/main.b9e1015c.css",
+    "main.js": "/react-portfolio/static/js/main.a9940b97.js",
+    "static/media/weather.png": "/react-portfolio/static/media/weather.8e59698bcae701b09a18.png",
+    "static/media/polaroid3.png": "/react-portfolio/static/media/polaroid3.cdf1a369ee566f550a44.png",
     "static/media/resume-pic.png": "/react-portfolio/static/media/resume-pic.e393ada79a60d8aafbed.png",
     "static/media/Blog square.png": "/react-portfolio/static/media/Blog square.30c072dc70322932669b.png",
     "static/media/today.png": "/react-portfolio/static/media/today.cad212798f0e2da3ddf4.png",
     "static/media/furever-friends.png": "/react-portfolio/static/media/furever-friends.5d833270041d11d3920f.png",
     "static/media/musical-theatre.jpeg": "/react-portfolio/static/media/musical-theatre.ebefd313fdeaeb0b4b80.jpeg",
-    "static/media/picture logo (1).png": "/react-portfolio/static/media/picture logo (1).319be0ee57ee6229c85b.png",
     "static/media/JAH Technical Resume.pdf": "/react-portfolio/static/media/JAH Technical Resume.8a790cd161c124a90653.pdf",
-    "static/media/weather.png": "/react-portfolio/static/media/weather.09544e74a5654ea28213.png",
     "static/media/dogtown.png": "/react-portfolio/static/media/dogtown.8a7fa8d4903b9650d5d6.png",
+    "static/media/Signature.png": "/react-portfolio/static/media/Signature.26a2ee69e7fffacc8f58.png",
     "static/media/memory-friend.png": "/react-portfolio/static/media/memory-friend.678aa334a21a5af6942b.png",
-    "static/media/Signature.png": "/react-portfolio/static/media/Signature.a354276d6e8c33c4f96e.png",
     "static/media/Regex.png": "/react-portfolio/static/media/Regex.d7c38637d753783bc015.png",
     "static/media/Dogtor (1).png": "/react-portfolio/static/media/Dogtor (1).0f371dabb11e18b6cc2c.png",
+    "static/media/resume.png": "/react-portfolio/static/media/resume.d44de697cc26667e4f8e.png",
+    "static/media/CANVA-LOGO.png": "/react-portfolio/static/media/CANVA-LOGO.05f102b186de3b679f51.png",
+    "static/media/ZOHO-LOGO.png": "/react-portfolio/static/media/ZOHO-LOGO.8fdfe5372a2ac4bb33a8.png",
     "index.html": "/react-portfolio/index.html",
-    "main.f65028f6.css.map": "/react-portfolio/static/css/main.f65028f6.css.map",
-    "main.77efe47b.js.map": "/react-portfolio/static/js/main.77efe47b.js.map"
+    "main.b9e1015c.css.map": "/react-portfolio/static/css/main.b9e1015c.css.map",
+    "main.a9940b97.js.map": "/react-portfolio/static/js/main.a9940b97.js.map"
   },
   "entrypoints": [
-    "static/css/main.f65028f6.css",
-    "static/js/main.77efe47b.js"
+    "static/css/main.b9e1015c.css",
+    "static/js/main.a9940b97.js"
   ]
 }

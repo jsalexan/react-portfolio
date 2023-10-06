@@ -135,14 +135,21 @@ ul {
 }
 
 .polaroid {
-  width: 
+  transition: transform 0.3s ease-in-out;
+  transform: rotate(-15deg);
 }
+
+.polaroid:hover {
+  transform: rotate(20deg);
+}
+
 /* My bio. */
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
   display: inline;
   padding-inline-start: 15px;
+  padding-left: 40px;
   flex: 0 0 70%;
   width: 150vmin;
   color: var(--text-color);
