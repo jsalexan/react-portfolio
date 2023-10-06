@@ -43,14 +43,17 @@ export default function About() {
         Solve.
       </span>
     </h4>
+                        <br />
+                        Hey there! 👋 I'm Jennifer, and I've got a gift for problem solving. I thrive in the fast-paced world of tech, fueled by a love for learning and the challenge of picking up new skills on the fly.
                         <br /><br />
-                        Jennifer Alexander-Hill is a problem-solver. Whether its developing fundraising CRMs for nonprofit organizations, or – as she finds herself these days – buried in a code refactoring, Jennifer excels in creatively exploring the big picture and then diving deep into the details to help you reach your goals. 
+                        I earned my stripes at the full stack web development bootcamp at the University of Washington. Working with everything from CSS to ReactJS and databases like MySQL and MongoDB, I've honed my skills to craft seamless and user-friendly experiences.
                         <br /><br />
-                        A graduate of the full stack web development bootcamp at the University of Washington, Jennifer has hands-on experience in everything from CSS, JavaScript, and ReactJS to MySQL, MongoDB, and GraphQL. She prides herself on her stellar work-ethic and her passion for learning new technologies, with a particular interest in creating a simple, intuitive user experience. In her free time, Jennifer volunteers for Seattle Public Schools as a web editor. 
+                        Also in my tech toolbox, you'll find creativity, collaboration, and a giant dollop of tenacity. My time working with nonprofits has sculpted me into a developer who not only loves coding but excels at communicating complex ideas. Whether I'm knee-deep in a code refactoring or hunkered down with the team debugging, I bring a collaborative spirit and a drive to deliver solutions that make an impact. 
                         <br /><br />
-                        Originally from New Jersey, Jennifer loves Seattle weather, experimenting with CSS, musical theatre, genealogical research, and her ukuleles. 
+                        When I'm not hooked to my keyboard, you'll find me volunteering for Seattle Public Schools, jazzing up their web content. Born a Jersey girl, now delighting in the rainy bliss of Seattle, I'm not just about coding – I'm into cooking, genealogical research, and picking away on a ukulele.
                         <br /><br />
-                        Learn more about her work and then reach out for a chat. 
+                        Curious to know more about what I do? Dive into my projects, and hey, let's grab a virtual coffee sometime. I'm always up for a chat! ☕️✨ 
+                        <br /><br />
                     </p>
               </div>
     </section>
