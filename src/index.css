@@ -73,6 +73,7 @@ a.nav-link:active {
 
 a.nav-link:hover {
   color: var(--third-tone)!important;
+  transition: color 0.3s ease;
 }
 
 .navbar-light .navbar-brand {
@@ -143,13 +144,18 @@ ul {
   transform: rotate(20deg);
 }
 
+.highlighted {
+  color: var(--third-tone);
+  transition: color 0.3s ease;
+}
+
 /* My bio. */
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
   display: inline;
   padding-inline-start: 15px;
-  padding-left: 40px;
+  padding-left: 60px;
   flex: 0 0 70%;
   width: 150vmin;
   color: var(--text-color);
@@ -304,6 +310,7 @@ p {
 .fa-brands:hover,
 .fa-solid:hover {
   color: var(--third-tone);
+  transition: color 0.3s ease;
 }
 
 /* Formatting for footer section. */
@@ -344,9 +351,9 @@ footer h3 {
   border-radius: 4px;
   background-color: var(--third-tone);
   color: var(--main-background);
-
   margin-top: 5px;
   text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
 .submit-button:hover {
@@ -355,13 +362,14 @@ footer h3 {
   border-color: var(--third-tone);
 }
 
-input.btn.submit-button:active {
+.submit-button:active {
   background-color: var(--third-tone);
   box-shadow: 0 5px black;
   color: var(--main-background);
   font-weight: bold;
   transform: translateY(2px);
 }
+
 
 .form-label {
   color: var(--third-tone);
