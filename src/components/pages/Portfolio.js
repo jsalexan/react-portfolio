@@ -1,6 +1,6 @@
 import React from "react";
 import dogtown from "../../assets/dogtown.png";
-import furever from "../../assets/furever-friends.png";
+import furever from "../../assets/FureverFriends-shot.png";
 import theatre from "../../assets/musical-theatre.jpeg";
 import tech from "../../assets/Blog square.png";
 import memory from "../../assets/memory-friend.png";
@@ -75,13 +75,13 @@ export default function Portfolio() {
             <span className="tech-subtitles">⌨ MVC with mySQL & Sequelize ⌨</span>
             <div className="button-row">
               <a
-                href="https://github.com/jsalexan/Furever-Friends"
+                href="https://github.com/jsalexan/FureverFriends"
                 className="portfolio-btn btn"
               >
                 GitHub
               </a>
               <a
-                href="https://fast-atoll-54795.herokuapp.com/"
+                href="https://fureverfriends-534cf30480d8.herokuapp.com/"
                 className="portfolio-btn btn"
               >
                 Website
