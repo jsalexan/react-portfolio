@@ -53,6 +53,7 @@ html {
   font-size: 40px;
   color: var(--text-color);
 }
+
 /* Navigation section */
 a.nav-link {
   background-color: var(--main-background);
@@ -61,14 +62,6 @@ a.nav-link {
   font-size: 20px;
   padding-bottom: 10px;
   padding-top: 10px;
-}
-
-a.nav-link {
-  color: var(--contrast);
-}
-
-a.nav-link:active {
-  color: var(--third-tone) !important;
 }
 
 a.nav-link:hover {

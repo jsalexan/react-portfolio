@@ -25,38 +25,34 @@ function Header({ currentPage, handlePageChange }) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="justify-content-end" style={{ width: "100%" }}>
-            <Nav.Link
-              href="#About"
-              onClick={() => handlePageChange("About")}
-              className="nav-link"
-              
-            >
-              About
-            </Nav.Link>
-            <Nav.Link
-              href="#Portfolio"
-              onClick={() => handlePageChange("Portfolio")}
-              className="nav-link"
-              
-            >
-              Portfolio
-            </Nav.Link>
-            <Nav.Link
-              href="#Resume"
-              onClick={() => handlePageChange("Resume")}
-              className="nav-link"
-              
-            >
-              Resume
-            </Nav.Link>
-            <Nav.Link
-              href="#Contact"
-              onClick={() => handlePageChange("Contact")}
-              className="nav-link"
-              
-            >
-              Contact
-            </Nav.Link>
+          <Nav.Link
+  href="#About"
+  onClick={() => handlePageChange("About")}
+  className={currentPage === "About" ? "nav-link active" : "nav-link"}
+>
+  About
+</Nav.Link>
+<Nav.Link
+  href="#Portfolio"
+  onClick={() => handlePageChange("Portfolio")}
+  className={currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
+>
+  Portfolio
+</Nav.Link>
+<Nav.Link
+  href="#Resume"
+  onClick={() => handlePageChange("Resume")}
+  className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
+>
+  Resume
+</Nav.Link>
+<Nav.Link
+  href="#Contact"
+  onClick={() => handlePageChange("Contact")}
+  className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
+>
+  Contact
+</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
