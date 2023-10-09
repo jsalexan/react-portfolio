@@ -68,11 +68,11 @@ a.nav-link {
 }
 
 a.nav-link:active {
-  color: var(--third-tone)!important;
+  color: var(--third-tone) !important;
 }
 
 a.nav-link:hover {
-  color: var(--third-tone)!important;
+  color: var(--third-tone) !important;
   transition: color 0.3s ease;
 }
 
@@ -226,7 +226,8 @@ p {
   background-color: transparent;
   margin-top: 125px;
   color: var(--third-tone);
-  text-shadow: 2px 2px 0px var(--main-background), 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-shadow: 2px 2px 0px var(--main-background),
+    4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 /* Hover feature.*/
@@ -353,7 +354,8 @@ footer h3 {
   color: var(--main-background);
   margin-top: 5px;
   text-align: center;
-  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease;
 }
 
 .submit-button:hover {
@@ -369,7 +371,6 @@ footer h3 {
   font-weight: bold;
   transform: translateY(2px);
 }
-
 
 .form-label {
   color: var(--third-tone);
@@ -429,8 +430,8 @@ textarea {
   flex-direction: column;
   padding-bottom: 30px;
 }
-/* Resume page */
 
+/* Resume page */
 .resume-link {
   display: flex;
   justify-content: center;
@@ -543,10 +544,6 @@ img.tech-stack:not(:hover) {
   padding-bottom: 30px;
 }
 
-.laurel {
-  width: 60px;
-}
-
 .final-thoughts {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
@@ -562,23 +559,21 @@ img.tech-stack:not(:hover) {
   padding-top: 20px;
 }
 
-.hover-underline-animation {
+/* .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: 
-#0087ca;
+  color: #0087ca;
 }
 
 .hover-underline-animation:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: 
-#0087ca;
+  background-color: #0087ca;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -586,14 +581,15 @@ img.tech-stack:not(:hover) {
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
+} */
 
 /* ------------------------------------------- */
 @media only screen and (max-width: 600px) {
   p {
     flex: 0 0 100%;
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
+    padding-left: 0px;
   }
 
   .about-me-container {
@@ -642,6 +638,5 @@ img.tech-stack:not(:hover) {
 
   .resume-container {
     margin-top: 10px;
-    }
   }
-
+}

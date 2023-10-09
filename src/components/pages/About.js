@@ -48,7 +48,7 @@ export default function About() {
                         <br /><br />
                         I earned my stripes at the full stack web development bootcamp at the University of Washington. Working with everything from CSS to ReactJS and databases like MySQL and MongoDB, I'm always honing my skills to craft seamless and user-friendly experiences.
                         <br /><br />
-                        Also in my tech toolbox, you'll find creativity, collaboration, and a giant dollop of tenacity. My time working with nonprofits has sculpted me into a developer who not only loves coding but excels at communicating complex ideas. Whether I'm knee-deep in a code refactoring or hunkered down with the team debugging, I bring a collaborative spirit and a drive to deliver solutions that make an impact. 
+                        Also in my tech toolbox, you'll find creativity, collaboration, and a giant dollop of tenacity. My time working with nonprofits has sculpted me into a developer who not only loves coding, but excels at communicating complex ideas. Whether I'm knee-deep in a code refactoring or hunkered down with the team debugging, I bring a collaborative spirit and a drive to deliver solutions that make an impact. 
                         <br /><br />
                         When I'm not hooked to my keyboard, you'll find me volunteering for Seattle Public Schools, polishing up their web content. Born and raised in NJ, now delighting in the rainy bliss of Seattle, I'm not just about coding – I'm into cooking, genealogical research, and picking away on a ukulele.
                         <br /><br />
