@@ -586,8 +586,13 @@ img.tech-stack:not(:hover) {
 .upcoming-news {
   margin-top: 40px;
 }
+
+.meta{
+  font-size: 14px;
+  color: var(--third-tone);
+}
 /* ------------------------------------------- */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 600px) {
   p {
     flex: 0 0 100%;
     margin-top: 40px;
@@ -648,16 +653,30 @@ img.tech-stack:not(:hover) {
   }
 
   p.news-text {
-    text-align: center!important;
-    padding-left: 0;
-    margin-top: 20px;
+   
+    text-align: center;
+    margin: 20px ;
   }
 
   .news-headline {
     margin-top: 20px;
-  }
-
-  .news-image {
     text-align: center;
   }
+
+  #news-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #news-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .meta {
+    margin-left: 38%;
+  }
+
 }
