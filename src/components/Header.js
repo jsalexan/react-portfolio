@@ -40,6 +40,13 @@ function Header({ currentPage, handlePageChange }) {
   Portfolio
 </Nav.Link>
 <Nav.Link
+  href="#News"
+  onClick={() => handlePageChange("News")}
+  className={currentPage === "News" ? "nav-link active" : "nav-link"}
+>
+  News
+</Nav.Link>
+<Nav.Link
   href="#Resume"
   onClick={() => handlePageChange("Resume")}
   className={currentPage === "Resume" ? "nav-link active" : "nav-link"}

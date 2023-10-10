@@ -33,11 +33,10 @@ import WEBPACK from "../../assets/WEBPACK-LOGO.png";
 import WORDPRESS from "../../assets/WORDPRESS-LOGO.png";
 import ZOHO from "../../assets/ZOHO-LOGO.png";
 import resume from "../../assets/JAH Technical Resume.pdf";
-import resumePic from "../../assets/resume-pic.png";
 
 export default function Resume() {
   return (
-    <container className="resume-page-container">
+    <main className="resume-page-container">
       <section className="skill-container">
         <h3 className="skills-h3">FRONT END SKILLS</h3>
           <div className="skill-blocks">
@@ -117,6 +116,6 @@ export default function Resume() {
           </a>
         </div>
       </section>
-    </container>
+    </main>
   );
 }

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.b9e1015c.css",
-    "main.js": "/react-portfolio/static/js/main.a9940b97.js",
+    "main.css": "/react-portfolio/static/css/main.bfbb2a7c.css",
+    "main.js": "/react-portfolio/static/js/main.aa564246.js",
     "static/media/weather.png": "/react-portfolio/static/media/weather.8e59698bcae701b09a18.png",
-    "static/media/polaroid3.png": "/react-portfolio/static/media/polaroid3.cdf1a369ee566f550a44.png",
+    "static/media/FureverFriends-shot.png": "/react-portfolio/static/media/FureverFriends-shot.866c463a5d4790c32327.png",
+    "static/media/polaroid.png": "/react-portfolio/static/media/polaroid.34894fdf94f50620f381.png",
     "static/media/resume-pic.png": "/react-portfolio/static/media/resume-pic.e393ada79a60d8aafbed.png",
     "static/media/Blog square.png": "/react-portfolio/static/media/Blog square.30c072dc70322932669b.png",
     "static/media/today.png": "/react-portfolio/static/media/today.cad212798f0e2da3ddf4.png",
-    "static/media/furever-friends.png": "/react-portfolio/static/media/furever-friends.5d833270041d11d3920f.png",
     "static/media/musical-theatre.jpeg": "/react-portfolio/static/media/musical-theatre.ebefd313fdeaeb0b4b80.jpeg",
     "static/media/JAH Technical Resume.pdf": "/react-portfolio/static/media/JAH Technical Resume.8a790cd161c124a90653.pdf",
     "static/media/dogtown.png": "/react-portfolio/static/media/dogtown.8a7fa8d4903b9650d5d6.png",
@@ -19,11 +19,11 @@
     "static/media/CANVA-LOGO.png": "/react-portfolio/static/media/CANVA-LOGO.05f102b186de3b679f51.png",
     "static/media/ZOHO-LOGO.png": "/react-portfolio/static/media/ZOHO-LOGO.8fdfe5372a2ac4bb33a8.png",
     "index.html": "/react-portfolio/index.html",
-    "main.b9e1015c.css.map": "/react-portfolio/static/css/main.b9e1015c.css.map",
-    "main.a9940b97.js.map": "/react-portfolio/static/js/main.a9940b97.js.map"
+    "main.bfbb2a7c.css.map": "/react-portfolio/static/css/main.bfbb2a7c.css.map",
+    "main.aa564246.js.map": "/react-portfolio/static/js/main.aa564246.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9e1015c.css",
-    "static/js/main.a9940b97.js"
+    "static/css/main.bfbb2a7c.css",
+    "static/js/main.aa564246.js"
   ]
 }
