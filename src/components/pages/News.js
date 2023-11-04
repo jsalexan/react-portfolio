@@ -6,6 +6,20 @@ export default function News() {
             <h1 className="news-heading">What I've Been Up To...</h1>
             <div className="news-container">
                 <div id="news-left">
+                    <a href="https://jsalexan.github.io/muppafones/">
+                        <img className="news-image" src="https://res.cloudinary.com/dlxjksvbc/image/upload/v1699055738/Puff_-_circle_v4bdi2.png" alt="Small teal puff getting hit with wooden mallet"></img>
+                    </a>
+                </div>
+                <div id="news-right">
+                    <div className="update1">
+                        <h3 className="news-headline">Puffafones</h3>
+                        <p className="news-text">As a Muppets fan, I wanted to create my version of the <a href="https://www.youtube.com/watch?v=p1YAUeOk2Hk">Muppaphones</a>. This was an exercise in using CSS transitions and animations, custom audio, event listeners, DOM manipulation, page interaction flow, conditional logic, and creativity. Next step is to put in some protocols to prevent the animation from sticking when overloaded. I'd like to add more animation/sound to the puffs so they aren't static as they wait to be whacked. It would be interesting to allow the user to select a song from a list and then be given a color guide to play it. Maybe even with backing tracks. I'd like to make the app responsive in some way. Right now it only works correctly on desktop.
+</p><br/><span className="meta">11/03/2023</span>
+                    </div>
+                </div>
+            </div>
+            <div className="news-container">
+                <div id="news-left">
                     <a href="https://github.com/jsalexan/chrome-ext-concerts">
                         <img className="news-image" src="https://res.cloudinary.com/dlxjksvbc/image/upload/v1697757536/Chrome_-circle_fiv2tj.png" alt="Two colorful wings"></img>
                     </a>
